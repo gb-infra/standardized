@@ -380,8 +380,8 @@
         "settings": {
           "enable_close": true,
           "arrow_active": false,
-          "color_text": "#b05d5d",
-          "bg_color_text": "#ffe8e8",
+          "color_text": "#06142e",
+          "bg_color_text": "#e7e7e7",
           "bg_color_text_gradient": "",
           "font_size_text": 12,
           "top_message_text": "",
