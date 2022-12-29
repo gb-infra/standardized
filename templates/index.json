@@ -898,7 +898,7 @@
         "bg_color_button_hover": "",
         "bg_color_gradient_button_hover": "",
         "product_block_collection": "",
-        "product_block_limit": 8,
+        "product_block_limit": 20,
         "grid_gap": 30,
         "pb_style": "style1",
         "style_countdown": "style_1",
