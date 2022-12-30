@@ -383,7 +383,7 @@
           "announcement-bar-0"
         ],
         "settings": {
-          "enable_close": true,
+          "enable_close": false,
           "arrow_active": false,
           "color_text": "#f8f8f8",
           "bg_color_text": "#232323",
