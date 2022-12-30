@@ -1129,6 +1129,7 @@
         "template--17379722494271__b245748a-b21f-4744-9c2f-e3d41d152736-1672376257c9d5be43-0": {
           "type": "largeImg",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_20579.jpg",
             "enable_max_width_image": false,
             "custom_width_image": 1170,
             "enable_parallax_image": false,
@@ -1142,7 +1143,7 @@
             "sub_title_position": "sub_title_above",
             "color_sub_title": "#232323",
             "color_sub_title_mb": "#fff",
-            "heading": "Metropólis",
+            "heading": "",
             "enable_style_italic": false,
             "font_size_heading": 40,
             "font_size_heading_mb": 24,
@@ -1152,7 +1153,7 @@
             "border_title": "border_s1",
             "border_color_title": "#232323",
             "border_color_title_mobile": "#fff",
-            "text": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an tincidunt risus an consequat delit quisquemos.",
+            "text": "",
             "font_size_des": 12,
             "font_size_des_mb": 12,
             "line_height_des": 26,
@@ -1173,7 +1174,7 @@
             "enable_custom_position": false,
             "custom_horizontal": "",
             "custom_vertical": "",
-            "btn_text": "Shop Now",
+            "btn_text": "",
             "link": "",
             "btn_icon": "",
             "button_1_width": 235,
@@ -1204,7 +1205,7 @@
         "template--17379722494271__b245748a-b21f-4744-9c2f-e3d41d152736-1672376257c9d5be43-0"
       ],
       "settings": {
-        "container": "fullwidth",
+        "container": "container",
         "padding_full_width": 0,
         "mg_top_desktop": 50,
         "mg_top_tablet": 50,
