@@ -916,103 +916,6 @@
         "color_plus_icon": "#ffffff"
       }
     },
-    "1632364695b0f88b4f": {
-      "type": "instagram",
-      "blocks": {
-        "566545cd-024f-4585-941a-d5bd625fbe4c": {
-          "type": "instagram",
-          "settings": {
-            "enable": true,
-            "image": "shopify:\/\/shop_images\/Rectangle_54_4.jpg",
-            "link": "shopify:\/\/collections\/cosmopolitan"
-          }
-        },
-        "c9c82244-f352-45ee-b86c-a77b2765317a": {
-          "type": "instagram",
-          "settings": {
-            "enable": true,
-            "image": "shopify:\/\/shop_images\/Rectangle_54_6.jpg",
-            "link": ""
-          }
-        },
-        "ffc0ea8b-3b8d-4158-908a-92f9ecdc03b4": {
-          "type": "instagram",
-          "settings": {
-            "enable": true,
-            "image": "shopify:\/\/shop_images\/Rectangle_54_3.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "566545cd-024f-4585-941a-d5bd625fbe4c",
-        "c9c82244-f352-45ee-b86c-a77b2765317a",
-        "ffc0ea8b-3b8d-4158-908a-92f9ecdc03b4"
-      ],
-      "settings": {
-        "container": "container",
-        "padding_full_width": 0,
-        "disable_padding_content": false,
-        "type_instagram": "default",
-        "block_layout": "slider",
-        "mg_top_desktop": 30,
-        "mg_top_tablet": 30,
-        "mg_top_mobile": 30,
-        "mg_bottom_desktop": 30,
-        "mg_bottom_tablet": 30,
-        "mg_bottom_mobile": 30,
-        "enable_border_instagram": false,
-        "instagram_border_color": "#e6e6e6",
-        "instagram_bg": "#fafafa",
-        "instagram_bg_gradient": "",
-        "instagram_title": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fab\" data-icon=\"instagram\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 448 512\" class=\"svg-inline--fa fa-instagram fa-w-14 fa-7x\"><path fill=\"currentColor\" d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\" class=\"\"><\/path><\/svg>#ELLA ON INSTAGRAM",
-        "enable_border_title": false,
-        "border_color_title": "#232323",
-        "color_title": "#232323",
-        "mg_bottom_title": 15,
-        "fontsize_title": 20,
-        "fontsize_title_mb": 20,
-        "instagram_des": "",
-        "color_des": "#3c3c3c",
-        "fontsize_des": 12,
-        "margin_bottom_des": 35,
-        "title_align": "center",
-        "view_all": "",
-        "view_all_fs": 12,
-        "view_all_align": "center",
-        "font_weight_view_all": "400",
-        "mg_bottom_view": 30,
-        "enable_border_view_all": true,
-        "link_view_all": "",
-        "color_view_all": "#3c3c3c",
-        "display_instagram_button": true,
-        "instagram_button_text": "View Gallery",
-        "type_button_more": "load",
-        "instagram_button_link": "shopify:\/\/collections\/congue",
-        "enable_underline_button": false,
-        "color_button": "#ffffff",
-        "border_color_button": "#232323",
-        "bg_color_button": "#232323",
-        "bg_color_gradient_button": "",
-        "color_button_hover": "#232323",
-        "border_color_button_hover": "#232323",
-        "bg_color_button_hover": "#ffffff",
-        "bg_color_gradient_button_hover": "",
-        "maxwidth_button": 230,
-        "mg_top_button": 30,
-        "embed_code": "",
-        "type_instagram_by_gallery": "popup_image",
-        "images_per_row": "3",
-        "instagram_item_limit": 5,
-        "grid_gap": 5,
-        "enable_hide_portion": false,
-        "slide_ins": "default_ins",
-        "display_arrow": true,
-        "icon_for_image": "",
-        "effects_bg": "",
-        "effects_opacity": 0
-      }
-    },
     "b245748a-b21f-4744-9c2f-e3d41d152736": {
       "type": "image-banner",
       "blocks": {
@@ -1121,6 +1024,103 @@
         "arrows_position": "",
         "enable_dots": false,
         "enable_autoplay": false
+      }
+    },
+    "1632364695b0f88b4f": {
+      "type": "instagram",
+      "blocks": {
+        "566545cd-024f-4585-941a-d5bd625fbe4c": {
+          "type": "instagram",
+          "settings": {
+            "enable": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_54_4.jpg",
+            "link": "shopify:\/\/collections\/cosmopolitan"
+          }
+        },
+        "c9c82244-f352-45ee-b86c-a77b2765317a": {
+          "type": "instagram",
+          "settings": {
+            "enable": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_54_6.jpg",
+            "link": ""
+          }
+        },
+        "ffc0ea8b-3b8d-4158-908a-92f9ecdc03b4": {
+          "type": "instagram",
+          "settings": {
+            "enable": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_54_3.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "566545cd-024f-4585-941a-d5bd625fbe4c",
+        "c9c82244-f352-45ee-b86c-a77b2765317a",
+        "ffc0ea8b-3b8d-4158-908a-92f9ecdc03b4"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "disable_padding_content": false,
+        "type_instagram": "default",
+        "block_layout": "slider",
+        "mg_top_desktop": 30,
+        "mg_top_tablet": 30,
+        "mg_top_mobile": 30,
+        "mg_bottom_desktop": 30,
+        "mg_bottom_tablet": 30,
+        "mg_bottom_mobile": 30,
+        "enable_border_instagram": false,
+        "instagram_border_color": "#e6e6e6",
+        "instagram_bg": "#fafafa",
+        "instagram_bg_gradient": "",
+        "instagram_title": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fab\" data-icon=\"instagram\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 448 512\" class=\"svg-inline--fa fa-instagram fa-w-14 fa-7x\"><path fill=\"currentColor\" d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\" class=\"\"><\/path><\/svg>#ELLA ON INSTAGRAM",
+        "enable_border_title": false,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "mg_bottom_title": 15,
+        "fontsize_title": 20,
+        "fontsize_title_mb": 20,
+        "instagram_des": "",
+        "color_des": "#3c3c3c",
+        "fontsize_des": 12,
+        "margin_bottom_des": 35,
+        "title_align": "center",
+        "view_all": "",
+        "view_all_fs": 12,
+        "view_all_align": "center",
+        "font_weight_view_all": "400",
+        "mg_bottom_view": 30,
+        "enable_border_view_all": true,
+        "link_view_all": "",
+        "color_view_all": "#3c3c3c",
+        "display_instagram_button": true,
+        "instagram_button_text": "View Gallery",
+        "type_button_more": "load",
+        "instagram_button_link": "shopify:\/\/collections\/congue",
+        "enable_underline_button": false,
+        "color_button": "#ffffff",
+        "border_color_button": "#232323",
+        "bg_color_button": "#232323",
+        "bg_color_gradient_button": "",
+        "color_button_hover": "#232323",
+        "border_color_button_hover": "#232323",
+        "bg_color_button_hover": "#ffffff",
+        "bg_color_gradient_button_hover": "",
+        "maxwidth_button": 230,
+        "mg_top_button": 30,
+        "embed_code": "",
+        "type_instagram_by_gallery": "popup_image",
+        "images_per_row": "3",
+        "instagram_item_limit": 5,
+        "grid_gap": 5,
+        "enable_hide_portion": false,
+        "slide_ins": "default_ins",
+        "display_arrow": true,
+        "icon_for_image": "",
+        "effects_bg": "",
+        "effects_opacity": 0
       }
     },
     "1073d496-728e-4e2a-bae8-c4461cfe4907": {
@@ -1241,8 +1241,8 @@
     "163247026462da6862",
     "16328142266b504c78",
     "1632296224c9e90203",
-    "1632364695b0f88b4f",
     "b245748a-b21f-4744-9c2f-e3d41d152736",
+    "1632364695b0f88b4f",
     "1073d496-728e-4e2a-bae8-c4461cfe4907"
   ]
 }
