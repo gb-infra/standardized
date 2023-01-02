@@ -342,6 +342,7 @@
     "btn_3_bg_hover": "#e9514b",
     "banner_animation": "effect_1",
     "use_custom_js": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_1.png",
     "enable_shopify_payments_currencies": false,
     "enable_multiple_currencies": true,
     "enable_auto_currency": false,
