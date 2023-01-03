@@ -384,10 +384,10 @@
           "announcement-bar-0"
         ],
         "settings": {
-          "enable_close": true,
+          "enable_close": false,
           "arrow_active": false,
-          "color_text": "#b05d5d",
-          "bg_color_text": "#ffe8e8",
+          "color_text": "#ffffff",
+          "bg_color_text": "#142c4c",
           "bg_color_text_gradient": "",
           "font_size_text": 12,
           "top_message_text": "",
