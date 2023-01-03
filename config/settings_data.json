@@ -384,7 +384,7 @@
           "announcement-bar-0"
         ],
         "settings": {
-          "enable_close": true,
+          "enable_close": false,
           "arrow_active": false,
           "color_text": "#ffffff",
           "bg_color_text": "#1c1b17",
