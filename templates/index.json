@@ -525,7 +525,7 @@
             "margin_bottom_des": 35,
             "color_des": "#1a721b",
             "content_width": 475,
-            "align": "center",
+            "align": "left",
             "enable_content_border": false,
             "content_border_color": "#232323",
             "video_link": "",
