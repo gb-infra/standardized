@@ -1553,7 +1553,7 @@
         "be2789d1-04ef-4de3-8e49-cad4a4c15ecd"
       ],
       "settings": {
-        "container": "fullwidth",
+        "container": "container",
         "padding_full_width": 0,
         "mg_top_desktop": 50,
         "mg_top_tablet": 50,
