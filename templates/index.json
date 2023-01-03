@@ -116,6 +116,7 @@
           "type": "smallImg",
           "settings": {
             "row_reverse": false,
+            "image": "shopify:\/\/shop_images\/71CzD_eRG3L._SX522.jpg",
             "small_img_block_style": "style_1",
             "enable_divider": true,
             "divider_bg_color": "",
@@ -141,7 +142,7 @@
             "margin_bottom_heading": 20,
             "font_weight_heading": "700",
             "color_heading": "#d71a1b",
-            "text": "230 V - 50 Hz (AS PER INDIAN POWER)<br>\n9-IN-1 FUNCTIONALITY<br>\nIMPROVED STRESS-FREE VENTING<br>\nCOOKING PROGRESS INDICATOR<br>\nA PERFECT COOKING PARTNER<br>\nWARRANTY<br>\nDISCOVER AMAZING RECIPES<br>\nQUICK ONE-TOUCH COOKING<br>\nVERSATILE INNER COOKING POT<br>\nFREE HOME INSTALLATION & FREE HOME SERVICE",
+            "text": "- 230 V - 50 Hz (AS PER INDIAN POWER)<br>\n- 9-IN-1 FUNCTIONALITY<br>\nIMPROVED STRESS-FREE VENTING<br>\n- COOKING PROGRESS INDICATOR<br>\n- A PERFECT COOKING PARTNER WARRANTY<br>\n- DISCOVER AMAZING RECIPES<br>\n- QUICK ONE-TOUCH COOKING<br>\n- VERSATILE INNER COOKING POT<br>\n- FREE HOME INSTALLATION & - FREE HOME SERVICE",
             "font_size_des": 14,
             "font_size_des_mb": 12,
             "line_height_des": 26,
@@ -172,8 +173,8 @@
             "link_btn_2": "",
             "button_2_width": 235,
             "button_2_color": "#fff",
-            "button_2_border": "#232323",
-            "button_2_background": "#232323",
+            "button_2_border": "#d71a1b",
+            "button_2_background": "#d71a1b",
             "button_2_background_gradient": "",
             "button_2_color_hover": "#fff",
             "button_2_border_hover": "#232323",
@@ -187,7 +188,7 @@
         "47f3f1d4-2cb3-4767-9d62-404a9854e53a"
       ],
       "settings": {
-        "container": "fullwidth",
+        "container": "container",
         "padding_full_width": 0,
         "mg_top_desktop": 0,
         "mg_top_tablet": 0,
