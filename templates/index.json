@@ -414,7 +414,7 @@
         "99142e68-fc4d-465f-9710-6009d506c6d5"
       ],
       "settings": {
-        "container": "fullwidth",
+        "container": "container",
         "padding_full_width": 0,
         "mg_top_desktop": 0,
         "mg_top_tablet": 0,
