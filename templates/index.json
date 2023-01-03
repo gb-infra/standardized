@@ -1207,6 +1207,7 @@
         "d436bd12-1274-4406-9390-e950151fbe8a": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/fc-logo.png",
             "margin_bottom_image": 0,
             "image_border_radius": 0,
             "enable_border": false,
@@ -1235,6 +1236,7 @@
         "f15bb8a5-40f9-4d63-97ab-a51b2e7a1420": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pepperfrycomhfy_2.jpg",
             "margin_bottom_image": 0,
             "image_border_radius": 0,
             "enable_border": false,
