@@ -1206,6 +1206,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/96c5a00cb774d62fa71402a83ca85d40.w1000.h1000._CR0_0_1000_1000_SX375_SY375.jpg",
             "title_align": "center",
             "enable_absolute": false,
             "align_items": "center",
@@ -1256,6 +1257,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dbda6c4e96dee52c13fef234c3fec8b7.w1000.h1000._CR0_0_1000_1000_SX375_SY375.jpg",
             "title_align": "center",
             "enable_absolute": false,
             "align_items": "center",
@@ -1306,6 +1308,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/b7a3912ca2b7fd8832b5e86db1768871.w1000.h1000._CR0_0_1000_1000_SX375_SY375.jpg",
             "title_align": "center",
             "enable_absolute": false,
             "align_items": "center",
@@ -1356,6 +1359,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/cfddc0e71a0ff55df311ffa40aff3545.w1000.h1000._CR0_0_1000_1000_SX375_SY375.jpg",
             "title_align": "center",
             "enable_absolute": false,
             "align_items": "center",
@@ -1583,6 +1587,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/200557a8c87196fc6a6b227616bf1b41.w1000.h1000._CR0_0_1000_1000_SX375_SY375.jpg",
             "title_align": "center",
             "enable_absolute": false,
             "align_items": "center",
@@ -1633,6 +1638,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/8d2a38c04d0162cdfb434c0425943319.w1000.h1000._CR0_0_1000_1000_SX375_SY375.jpg",
             "title_align": "center",
             "enable_absolute": false,
             "align_items": "center",
@@ -1683,6 +1689,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/06ec78e63bca561c10d556a03f45bfce.w1000.h1000._CR0_0_1000_1000_SX375_SY375.jpg",
             "title_align": "center",
             "enable_absolute": false,
             "align_items": "center",
@@ -1733,6 +1740,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/c4ed47a27aec0d21ed502f32be5642e9.w1000.h1000._CR0_0_1000_1000_SX375_SY375.jpg",
             "title_align": "center",
             "enable_absolute": false,
             "align_items": "center",
@@ -1806,8 +1814,8 @@
         "mg_bottom_mobile": 50,
         "spotlight_bg": "#fff",
         "spotlight_bg_gradient": "",
-        "spotlight_block_title": "#Featured On Ella",
-        "enable_border_title": true,
+        "spotlight_block_title": "",
+        "enable_border_title": false,
         "color_title": "#232323",
         "fontsize_title": 16,
         "fontsize_title_mb": 22,
