@@ -1023,6 +1023,7 @@
           "type": "instagram",
           "settings": {
             "enable": true,
+            "image": "shopify:\/\/shop_images\/283976144_406539578048391_1105658312511372899_n.jpg",
             "link": ""
           }
         },
@@ -1030,6 +1031,7 @@
           "type": "instagram",
           "settings": {
             "enable": true,
+            "image": "shopify:\/\/shop_images\/281571057_531818651761359_7700107626065552839_n.jpg",
             "link": ""
           }
         }
