@@ -1064,7 +1064,7 @@
         "margin_bottom_des": 30,
         "fontsize_des": 16,
         "title_align": "center",
-        "item_distance": 15,
+        "item_distance": 5,
         "item_radius": 0,
         "view_all": "",
         "view_all_fs": 12,
