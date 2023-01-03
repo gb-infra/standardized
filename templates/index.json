@@ -6,6 +6,7 @@
         "16321237356a896dad-0": {
           "type": "image",
           "settings": {
+            "image_slide": "shopify:\/\/shop_images\/BANNER-2_1.jpg",
             "alignment": "left",
             "enable_custom_position": false,
             "custom_horizontal": "40",
@@ -36,7 +37,7 @@
             "border_sub_heading": "none",
             "sub_title_position": "sub_title_above",
             "color_sub_heading": "#ffffff",
-            "heading": "COSMOPOLIS",
+            "heading": "",
             "letter_spacing_heading": "",
             "enable_border_heading": true,
             "font_style_heading": "normal",
@@ -44,7 +45,7 @@
             "line_height_heading": 40,
             "heading_spacing_bottom": 20,
             "color_heading": "#232323",
-            "slide-des": "Quisquemos sodales suscipit tortor ditaemcos condimentum de cosmo lacus meleifend menean diverra loremous.",
+            "slide-des": "",
             "font_size_des": 12,
             "des_spacing_bottom": 35,
             "color_des": "#232323",
