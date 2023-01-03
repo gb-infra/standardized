@@ -1261,62 +1261,6 @@
             "bx_opacity": 0.2,
             "bx_inset": "no"
           }
-        },
-        "e6a19dc6-2aec-4512-92b1-383a2457fd78": {
-          "type": "image",
-          "settings": {
-            "margin_bottom_image": 0,
-            "image_border_radius": 0,
-            "enable_border": false,
-            "border_radius": 4,
-            "border_color": "#e2e5e7",
-            "border_color_hover": "#2d2d2d",
-            "title": "",
-            "fontsize_text": 16,
-            "fontsize_text_mb": 13,
-            "font_weight_title": "400",
-            "color_text": "#000000",
-            "color_text_hover": "#3e8cc4",
-            "margin_bottom_title": 0,
-            "description": "",
-            "color_des": "#3c3c3c",
-            "link": "",
-            "box_shadow": "none",
-            "bx_horizontal_length": 0,
-            "bx_vertical_length": 3,
-            "bx_blur_radius": 8,
-            "bx_spread": 0,
-            "bx_opacity": 0.2,
-            "bx_inset": "no"
-          }
-        },
-        "70c98209-e556-47a8-905c-ef59a3cbdafa": {
-          "type": "image",
-          "settings": {
-            "margin_bottom_image": 0,
-            "image_border_radius": 0,
-            "enable_border": false,
-            "border_radius": 4,
-            "border_color": "#e2e5e7",
-            "border_color_hover": "#2d2d2d",
-            "title": "",
-            "fontsize_text": 16,
-            "fontsize_text_mb": 13,
-            "font_weight_title": "400",
-            "color_text": "#000000",
-            "color_text_hover": "#3e8cc4",
-            "margin_bottom_title": 0,
-            "description": "",
-            "color_des": "#3c3c3c",
-            "link": "",
-            "box_shadow": "none",
-            "bx_horizontal_length": 0,
-            "bx_vertical_length": 3,
-            "bx_blur_radius": 8,
-            "bx_spread": 0,
-            "bx_opacity": 0.2,
-            "bx_inset": "no"
-          }
         }
       },
       "block_order": [
@@ -1324,9 +1268,7 @@
         "bdae57c3-5b52-4a54-8e32-0a044b504263",
         "fcfce55e-8fe7-4a74-9144-b92bd0bc2b2c",
         "d436bd12-1274-4406-9390-e950151fbe8a",
-        "f15bb8a5-40f9-4d63-97ab-a51b2e7a1420",
-        "e6a19dc6-2aec-4512-92b1-383a2457fd78",
-        "70c98209-e556-47a8-905c-ef59a3cbdafa"
+        "f15bb8a5-40f9-4d63-97ab-a51b2e7a1420"
       ],
       "settings": {
         "container": "container",
