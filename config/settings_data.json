@@ -1233,6 +1233,36 @@
       },
       "header-02": {
         "type": "header-02",
+        "blocks": {
+          "462f29d5-213d-4182-94be-ff77096c66a3": {
+            "type": "megamenu_style_3",
+            "settings": {
+              "layout_block": "custom_width",
+              "header_custom_width_size": 1200,
+              "mega_tyle": "style1",
+              "item": "Our Products",
+              "column": 5,
+              "show_banner_1": true,
+              "banner_1": "shopify:\/\/shop_images\/718UPuFG0DL._AC_CR0_0_0_0_SX480_SY360.jpg",
+              "banner_url_1": "",
+              "show_banner_2": true,
+              "banner_2": "shopify:\/\/shop_images\/N8_Pro.jpg",
+              "banner_url_2": "",
+              "show_banner_3": true,
+              "banner_3": "shopify:\/\/shop_images\/71uFUBEUX8L._AC_CR0_0_0_0_SX480_SY360.jpg",
+              "banner_url_3": "",
+              "show_banner_4": true,
+              "banner_4": "shopify:\/\/shop_images\/71XDIjDXa1L._AC_CR0_0_0_0_SX480_SY360.jpg",
+              "banner_url_4": "",
+              "show_banner_5": true,
+              "banner_5": "shopify:\/\/shop_images\/71IMotNk46L._AC_CR0_0_0_0_SX480_SY360.jpg",
+              "banner_url_5": ""
+            }
+          }
+        },
+        "block_order": [
+          "462f29d5-213d-4182-94be-ff77096c66a3"
+        ],
         "settings": {
           "style_header": "style_1",
           "menu": "main-menu",
