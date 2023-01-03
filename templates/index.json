@@ -7,6 +7,7 @@
           "type": "image",
           "settings": {
             "image_slide": "shopify:\/\/shop_images\/west_coat_photos_411_1.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/west_coat_photos_41_1.jpg",
             "alignment": "left",
             "enable_custom_position": false,
             "custom_horizontal": "40",
