@@ -1263,7 +1263,7 @@
           "logo_font_weight": "900",
           "logo_text_transform": "uppercase",
           "logo_color": "#ffffff",
-          "enable_parallax": true,
+          "enable_parallax": false,
           "logo_parallax": "shopify:\/\/shop_images\/160926-Encasa-Homes-Transparent_180x_f8509750-ed3d-40a3-bab4-b8dbdc118362.png",
           "color_sticky_parallax": "#232323",
           "bg_sticky_parallax": "#ffffff",
