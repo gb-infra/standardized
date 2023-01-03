@@ -1041,7 +1041,7 @@
         "block_layout": "grid",
         "spotlight_block_swipe_on_mobile": "slider",
         "column": "3",
-        "column_mb": "2",
+        "column_mb": "1",
         "enable_arrows": true,
         "display_border_bottom": false,
         "border_color": "#e3e3e3",
