@@ -556,6 +556,7 @@
           "type": "smallImg",
           "settings": {
             "row_reverse": true,
+            "image": "shopify:\/\/shop_images\/71D0-rvuNNL._SX679.jpg",
             "small_img_block_style": "style_1",
             "enable_divider": true,
             "divider_bg_color": "",
