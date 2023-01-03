@@ -1241,7 +1241,7 @@
           "show_wishlist": false,
           "show_customer": true,
           "header_top_color": "#323232",
-          "header_bottom_bg": "#ffffff",
+          "header_bottom_bg": "rgba(0,0,0,0)",
           "header_bottom_bg_gradient": "",
           "bg_search_color": "#fafafa",
           "search_color": "#323232",
