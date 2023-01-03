@@ -1237,9 +1237,9 @@
           "462f29d5-213d-4182-94be-ff77096c66a3": {
             "type": "megamenu_style_3",
             "settings": {
-              "layout_block": "custom_width",
+              "layout_block": "full",
               "header_custom_width_size": 1200,
-              "mega_tyle": "style1",
+              "mega_tyle": "style2",
               "item": "Our Products",
               "column": 5,
               "show_banner_1": true,
