@@ -651,7 +651,7 @@
               "button_color_bg_hover": "#000000",
               "button_color_bg_gradient_hover": "",
               "check_text": "",
-              "check_text_color": "#808080",
+              "check_text_color": "#ffffff",
               "check_text_fontsize": 14,
               "check_input_color": "#ffffff"
             }
