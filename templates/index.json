@@ -628,7 +628,7 @@
         "6279459f-b7dc-4f93-9e20-c3bbff81b239"
       ],
       "settings": {
-        "container": "fullwidth",
+        "container": "container",
         "padding_full_width": 0,
         "mg_top_desktop": 50,
         "mg_top_tablet": 50,
