@@ -1085,6 +1085,7 @@
           "type": "instagram",
           "settings": {
             "enable": true,
+            "image": "shopify:\/\/shop_images\/316751208_171074182274089_1320984170547872085_n.jpg",
             "link": "shopify:\/\/collections\/cosmopolitan"
           }
         },
@@ -1092,6 +1093,7 @@
           "type": "instagram",
           "settings": {
             "enable": true,
+            "image": "shopify:\/\/shop_images\/314994578_1629108484174753_1933888640518719870_n.jpg",
             "link": ""
           }
         },
@@ -1099,6 +1101,7 @@
           "type": "instagram",
           "settings": {
             "enable": true,
+            "image": "shopify:\/\/shop_images\/318219524_3390947784527615_7783090710565807348_n.jpg",
             "link": ""
           }
         },
@@ -1106,6 +1109,7 @@
           "type": "instagram",
           "settings": {
             "enable": true,
+            "image": "shopify:\/\/shop_images\/318931103_2025230904353717_1522509900660805663_n.jpg",
             "link": ""
           }
         },
@@ -1113,6 +1117,7 @@
           "type": "instagram",
           "settings": {
             "enable": true,
+            "image": "shopify:\/\/shop_images\/316673900_854024922391393_7590662210538773377_n.jpg",
             "link": ""
           }
         },
@@ -1120,13 +1125,7 @@
           "type": "instagram",
           "settings": {
             "enable": true,
-            "link": ""
-          }
-        },
-        "10cdc233-191c-45f5-ac5a-a229cee6856b": {
-          "type": "instagram",
-          "settings": {
-            "enable": true,
+            "image": "shopify:\/\/shop_images\/316862553_520219943351858_6661807611971850426_n.jpg",
             "link": ""
           }
         }
@@ -1137,8 +1136,7 @@
         "2608f7ec-f962-4cc2-ab46-c0dcd2d419a7",
         "fc8fa6da-8960-435b-a1f5-9c39e2f4c91d",
         "e88c11d8-b10c-4b36-b3c0-148f7e6a87ec",
-        "ffc0ea8b-3b8d-4158-908a-92f9ecdc03b4",
-        "10cdc233-191c-45f5-ac5a-a229cee6856b"
+        "ffc0ea8b-3b8d-4158-908a-92f9ecdc03b4"
       ],
       "settings": {
         "container": "container",
