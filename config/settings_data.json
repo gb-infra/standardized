@@ -635,9 +635,9 @@
               "newsletter_form_width": 420,
               "newsletter_form_radius": 0,
               "input_text": "enter your email address",
-              "input_color": "#cfcfcf",
+              "input_color": "#ffffff",
               "input_color_bg": "#232323",
-              "input_color_border": "#d3d3d3",
+              "input_color_border": "#ffffff",
               "button_text": "Submit",
               "button_width": 150,
               "button_color": "#232323",
@@ -649,7 +649,7 @@
               "button_color_bg_hover": "#000000",
               "button_color_bg_gradient_hover": "",
               "check_text": "",
-              "check_text_color": "#808080",
+              "check_text_color": "#ffffff",
               "check_text_fontsize": 14,
               "check_input_color": "#ffffff"
             }
