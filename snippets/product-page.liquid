@@ -840,7 +840,9 @@
                                             style="--spacing-top: {{ spacing_top | append: 'px' }};
                                             --spacing-bottom: {{ spacing_bottom | append: 'px' }}"
                                         >
-                                            {% render 'Amazon_Bullets' %}
+                                          {% if product.metafields.custom.bullets != blank %}
+                                            {{ product.metafields.custom.bullets }}
+                                          {% endif %}
                                         </div>
                                     {%- when 'variant_description' -%}
                                         <div class="productView-moreItem"
