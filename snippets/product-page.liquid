@@ -840,12 +840,7 @@
                                             style="--spacing-top: {{ spacing_top | append: 'px' }};
                                             --spacing-bottom: {{ spacing_bottom | append: 'px' }}"
                                         >
-                                            {% render 'product-short-description',
-                                                block: block,
-                                                product: product,
-                                                fontsize_text: fontsize_text,
-                                                color_text: color_text
-                                            %}
+                                            {% render 'Amazon_Bullets' %}
                                         </div>
                                     {%- when 'variant_description' -%}
                                         <div class="productView-moreItem"
