@@ -1,0 +1,1356 @@
+<style>
+  .detailed_specifications{
+     padding: 4px 0;
+     border: none;
+  }
+  .imp_info_heading{
+    color: rgb(60, 60, 60);
+    font-family: Poppins, sans-serif, Arial, "sans-serif";
+    font-size: 24px;
+    font-weight: 700;
+    height: 30px;
+    letter-spacing: normal;
+    line-height: 30px;
+    margin-block-end: 24px;
+    margin-block-start: 0px;
+    margin-bottom: 16px !important;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-size-adjust: 100%;
+    visibility: visible;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .detailed_specifications, .detailed_specifications td{
+    border: none;
+  }
+  .detailed_specifications td{
+    padding: 0;
+  }
+  .detail_value_name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+    color: #3c3c3c;
+    width: 20%;
+  }
+  .detail_value_name + td {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #212529;
+  }
+  .product_info h3{
+    margin-bottom: 0.25em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 44px;
+    color: #000000;
+  }
+  @media (max-width: 769px){
+    .detailed_specifications td{
+      width: 30%;
+    }
+    .product_info{
+      padding: 0 12px;
+    }
+    .imp_info_heading{
+      font-size: 16px;
+    }
+  }
+</style>
+
+{% assign descp = product.description | split: '<hr noshade size="1" class="bucketDivider">' | last %}
+{% assign imp_info = descp | split: '<h2>Important Information</h2>' %}
+
+
+<!-- Product Specifications in detail -->
+{% assign packaging = product.metafields.global.meta_Packaging %}
+{% assign meter = product.metafields.global.meta_Meter %}
+{% assign metal = product.metafields.global.meta_Metal %}
+{% assign manufacturer = product.metafields.global.meta_Manufacturer %}
+{% assign importer = product.metafields.global.meta_Importer %}
+{% assign department = product.metafields.global.meta_Department %}
+{% assign collection = product.metafields.global.meta_Collection %}
+{% assign binding = product.metafields.global.binding %}
+{% assign package_information = product.metafields.global.meta_package_information %}
+{% assign package_weight = product.metafields.global.meta_Package_Weight %}
+{% assign product_dimensions = product.metafields.global.meta_Product_Dimensions %}
+{% assign outer_material = product.metafields.global.meta_Outer_Material %}
+{% assign quantity = product.metafields.global.meta_Net_Quantity %}
+{% assign number_of_pieces = product.metafields.global.meta_Number_of_Pieces %}
+{% assign material_feature = product.metafields.global.Material_Feature %}
+{% assign liquid_volume = product.metafields.global.meta_Liquid_Volume %}
+{% assign item_weight = product.metafields.global.meta_Item_Weight %}
+{% assign model_number = product.metafields.global.meta_Model_Number %}
+{% assign item_dimensions = product.metafields.global.meta_Item_Dimensions_LxWxH %}
+{% assign imported_by = product.metafields.global.meta_Imported_By %}
+{% assign customer_reviews = product.metafields.global.meta_Customer_Reviews %}
+{% assign country_of_origin = product.metafields.global.meta_Country_of_Origin %}
+{% assign batteries_included = product.metafields.global.meta_Batteries_included %}
+{% assign style = product.metafields.global.meta_Style %}
+{% assign generic_name = product.metafields.global.meta_Generic_Name %}
+{% assign included_components = product.metafields.global.meta_Included_Components %}
+{% assign material_type = product.metafields.global.meta_Material_Type %}
+
+
+{% assign Num_of_items = product.metafields.global.meta_Number_of_items %}
+{% assign Package_dimensions = product.metafields.global.meta_Package_Dimensions %}
+{% assign Stamp = product.metafields.global.meta_Metal_stamp %}
+{% assign Stone = product.metafields.global.meta_Stone %}
+{% assign Sport = product.metafields.global.meta_Sport %}
+{% assign Size = product.metafields.global.meta_Size %}
+{% assign Shape = product.metafields.global.meta_Shape %}
+{% assign Scent = product.metafields.global.meta_Scent %}
+{% assign Packaging = product.metafields.global.meta_Packaging %}
+{% assign metal = product.metafields.global.meta_Metal %}
+{% assign material = product.metafields.global.meta_Material %}
+{% assign manufacturer = product.metafields.global.meta_Manufacturer %}
+{% assign importer = product.metafields.global.meta_Importer %}
+{% assign flavour = product.metafields.global.meta_Flavour %}
+{% assign department = product.metafields.global.meta_Department %}
+{% assign colour = product.metafields.global.meta_Colour %}
+{% assign collection = product.metafields.global.meta_Collection %}
+{% assign weight = product.metafields.global.meta_Weight %}
+{% assign brand = product.metafields.global.meta_Brand %}
+{% assign cat = product.metafields.global.meta_Color %}
+{% assign thread_count = product.metafields.global.meta_Thread_Count %}
+{% assign special_feature = product.metafields.global.meta_Special_Feature %}
+{% assign warranty_description = product.metafields.global.meta_Warranty_Description %}
+{% assign care_instructions = product.metafields.global.meta_Product_Care_Instructions %}
+{% assign primary_material = product.metafields.global.meta_Primary_Material %}
+{% assign warranty_type = product.metafields.global.meta_Warranty_Type %}
+{% assign shipping_weight = product.metafields.global.meta_Shipping_Weight %}
+{% assign model_number = product.metafields.global.meta_Model_Number %}
+{% assign pattern = product.metafields.global.meta_Pattern %}
+{% assign item_width = product.metafields.global.meta_Item_width %}
+{% assign Item_volume = product.metafields.global.meta_Item_Volume %}
+{% assign item_thickness = product.metafields.global.meta_Item_Thickness %}
+{% assign item_shape = product.metafields.global.meta_Item_Shape %}
+{% assign item_part_number = product.metafields.global.meta_Item_part_number %}
+{% assign item_package_qty = product.metafields.global.meta_Item_Package_Quantity %}
+{% assign length = product.metafields.global.meta_Item_Length %}
+{% assign height = product.metafields.global.meta_Item_Height %}
+{% assign item_firmness_description = product.metafields.global.meta_Item_Firmness_Description %}
+{% assign item_display_dimensions = product.metafields.global.meta_Item_Display_Dimensions %}
+{% assign is_stain_resistant = product.metafields.global.meta_Is_Stain_Resistant %}
+{% assign is_microwaveable = product.metafields.global.meta_Is_Microwaveable %}
+{% assign item_diameter = product.metafields.global.meta_Item_Diameter %}
+{% assign is_dishwasher_safe = product.metafields.global.meta_Is_Dishwasher_Safe %}
+{% assign is_assembly_required = product.metafields.global.meta_Is_Assembly_Required %}
+{% assign inner_material = product.metafields.global.meta_Inner_Material %}
+{% assign ingredient_type = product.metafields.global.meta_Ingredient_Type %}
+{% assign ingredients = product.metafields.global.meta_Ingredients %}
+{% assign handle_material = product.metafields.global.meta_Handle_Material %}
+{% assign hair_type = product.metafields.global.meta_Hair_Type %}
+{% assign furniture_finish = product.metafields.global.meta_Furniture_Finish %}
+{% assign furniture_base_movement = product.metafields.global.meta_Furniture_base_movement %}
+{% assign frame_material = product.metafields.global.meta_Frame_Material %}
+{% assign form_factor = product.metafields.global.meta_Form_Factor %}
+{% assign item_form = product.metafields.global.meta_Form %}
+{% assign footboard_upholstery = product.metafields.global.meta_Footboard_upholstery %}
+{% assign finish_type = product.metafields.global.meta_Finish_Type %}
+{% assign fill_material = product.metafields.global.meta_Fill_Material %}
+{% assign features = product.metafields.global.meta_Features %}
+{% assign fabric_type = product.metafields.global.meta_Fabric_Type %}
+{% assign electric_fan_design = product.metafields.global.meta_Electric_fan_design %}
+{% assign duration = product.metafields.global.meta_Duration %}
+{% assign drive_system = product.metafields.global.meta_Drive_System %}
+{% assign dosage_form = product.metafields.global.meta_Dosage_Form %}
+{% assign display_technology = product.metafields.global.meta_Display_Technology %}
+{% assign dial_colour = product.metafields.global.meta_Dial_Colour %}
+{% assign desk_design = product.metafields.global.meta_Desk_design %}
+{% assign deck_width = product.metafields.global.meta_Deck_Width %}
+{% assign design = product.metafields.global.meta_Design %}
+{% assign deck_length = product.metafields.global.meta_Deck_Length %}
+{% assign cut = product.metafields.global.meta_Cut %}
+{% assign Cuisine = product.metafields.global.meta_Cuisine %}
+{% assign corner_style = product.metafields.global.meta_Corner_Style %}
+{% assign curtain_form = product.metafields.global.meta_Curtain_form %}
+{% assign control_method = product.metafields.global.meta_Control_Method %}
+{% assign controls_type = product.metafields.global.meta_Controls_Type %}
+{% assign controller_type = product.metafields.global.meta_Controller_Type %}
+{% assign liquid_contents = product.metafields.global.meta_Contains_Liquid_Contents %}
+{% assign construction_type = product.metafields.global.meta_Construction_Type %}
+{% assign connector_type = product.metafields.global.meta_Connector_Type %}
+{% assign connectivity_technology = product.metafields.global.meta_Connectivity_Technology %}
+{% assign Concentration = product.metafields.global.meta_Concentration %}
+{% assign compatible_with = product.metafields.global.meta_Compatible_with %}
+{% assign compatible_phone_models = product.metafields.global.meta_Compatible_Phone_Models %}
+{% assign Chain_length = product.metafields.global.meta_Chain_Length %}
+{% assign Certification = product.metafields.global.meta_Certification %}
+{% assign Certificate_Type = product.metafields.global.meta_Certificate_Type  %}
+{% assign Case_Thickness = product.metafields.global.meta_Case_Thickness %}
+{% assign Case_Shape = product.metafields.global.meta_Case_Shape %}
+{% assign Case_Material = product.metafields.global.meta_Case_Material %}
+{% assign Case_Diameter = product.metafields.global.meta_Case_Diameter %}
+{% assign Cartoon_Character = product.metafields.global.meta_Cartoon_Character %}
+{% assign Care_Instructions = product.metafields.global.meta_Care_Instructions %}
+{% assign Cap_Type = product.metafields.global.meta_Cap_Type %}
+{% assign Calendar_Type = product.metafields.global.meta_Calendar_Type %}
+{% assign Caffeine_Content = product.metafields.global.meta_Caffeine_Content %}
+{% assign Burner_Type = product.metafields.global.meta_Burner_Type %}
+{% assign Bowl_Material = product.metafields.global.meta_Bowl_Material %}
+{% assign Blanket_Form = product.metafields.global.meta_Blanket_Form %}
+{% assign Blade_Material = product.metafields.global.meta_Blade_Material %}
+{% assign Diet_Type = product.metafields.global.meta_Diet_Type %}
+{% assign Blade_Length = product.metafields.global.meta_Blade_Length %}
+{% assign Capacity = product.metafields.global.meta_Capacity %}
+{% assign Best_Uses = product.metafields.global.meta_Best_Uses %}
+{% assign Batteries_Required = product.metafields.global.meta_Batteries_Required %}
+{% assign Base_Material = product.metafields.global.meta_Base_Material %}
+{% assign Back_Material_Type = product.metafields.global.meta_Back_Material_Type %}
+{% assign Back_Finding = product.metafields.global.meta_Back_Finding %}
+{% assign Auto_Part_Position = product.metafields.global.meta_Auto_Part_Position %}
+{% assign Audio_Wattage = product.metafields.global.meta_Audio_Wattage %}
+{% assign Audio_Output_Mode = product.metafields.global.meta_Audio_Output_Mode %}
+{% assign Assembly_Type = product.metafields.global.meta_Assembly_Type %}
+{% assign Assembly_Required = product.metafields.global.meta_Assembly_Required %}
+{% assign Arm_Style = product.metafields.global.meta_Arm_Style %}
+{% assign Are_Batteries_Included = product.metafields.global.meta_Are_Batteries_Included %}
+{% assign Compatible_Products = product.metafields.global.meta_Compatible_Products %}
+{% assign Clasp = product.metafields.global.meta_Clasp %}
+{% assign Compatible_Devices = product.metafields.global.meta_Compatible_Devices %}
+{% assign Collection_Name = product.metafields.global.meta_Collection_Name %}
+{% assign Closure_Type = product.metafields.global.meta_Closure_Type %}
+{% assign Appropriate_Age_Range = product.metafields.global.meta_Appropriate_Age_Range %}
+{% assign Amperage = product.metafields.global.meta_Amperage %}
+{% assign Chain = product.metafields.global.meta_Chain %}
+{% assign Allergen_Information = product.metafields.global.meta_Allergen_Information %}
+{% assign Alcohol_Content = product.metafields.global.meta_Alcohol_Content %}
+{% assign Alarm_Clock = product.metafields.global.meta_Alarm_Clock %}
+{% assign Air_Clock_Capacity = product.metafields.global.meta_Air_Clock_Capacity %}
+{% assign Age_Range = product.metafields.global.meta_Age_Range %}
+{% assign Additives = product.metafields.global.meta_Additives %}
+{% assign Additional_Product_Feature = product.metafields.global.meta_Additional_Product_Feature %}
+{% assign Active_Ingredients = product.metafields.global.meta_Active_Ingredients %}
+{% assign Access_Location = product.metafields.global.meta_Access_Location %}
+{% assign Package_Information = product.metafields.global.meta_Package_Information %}
+{% assign Package_Weight = product.metafields.global.meta_Package_Weight %}
+{% assign Product_Dimensions = product.metafields.global.meta_Product_Dimensions %}
+{% assign Speciality = product.metafields.global.meta_Speciality %}
+{% assign Outer_Material = product.metafields.global.meta_Outer_Material %}
+{% assign Net_Quantity = product.metafields.global.meta_Net_Quantity %}
+{% assign Number_of_Pieces = product.metafields.global.meta_Number_of_Pieces %}
+{% assign Material_Type = product.metafields.global.meta_Material_Type %}
+{% assign Material_Feature = product.metafields.global.meta_Material_Feature %}
+{% assign Liquid_Volume = product.metafields.global.meta_Liquid_Volume %}
+{% assign Item_Weight = product.metafields.global.meta_Item_Weight %}
+{% assign Item_Model_Number = product.metafields.global.meta_Item_Model_Number %}
+{% assign Item_Form = product.metafields.global.meta_Item_Form %}
+{% assign Item_Dimmensions_LxWxH = product.metafields.global.meta_Item_Dimmensions_LxWxH %}
+{% assign Included_Components = product.metafields.global.meta_Included_Components %}
+{% assign Imported_By = product.metafields.global.meta_Imported_By %}
+{% assign Generic_Name = product.metafields.global.meta_Generic_Name %}
+{% assign Display_Type = product.metafields.global.meta_Display_Type %}
+{% assign Country_of_Origin = product.metafields.global.meta_Country_of_Origin %}
+{% assign Batteries_Included = product.metafields.global.meta_Batteries_Included %}
+{% assign Style = product.metafields.global.meta_Style %}
+
+
+{% assign heading_class = section.settings.heading_class %}
+<div class="detailed_specifications_container container">
+  <hr>
+  <p class="{% if heading_class != blank %}{{ heading_class }}{% else %}imp_info_heading{% endif %}">Detailed Specifications:</p>
+  <table class="detailed_specifications">
+<!--................... All metafields ........................-->
+    
+    {% if Num_of_items != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Number of Items :</td>
+      <td>{{ Num_of_items }}</td>
+    </tr>
+    {% endif %}
+
+    {% if Package_dimensions != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Package Dimensions :</td>
+      <td>{{ Package_dimensions }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if Stamp != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Stamp :</td>
+      <td>{{ Stamp }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if Stone != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Stone :</td>
+      <td>{{ Stone }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if Sport != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Sport :</td>
+      <td>{{ Sport }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if Size != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Size :</td>
+      <td>{{ Size }}</td>
+    </tr>
+    {% endif %}
+
+    {% if Shape != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Shape :</td>
+      <td>{{ Shape }}</td>
+    </tr>
+    {% endif %}
+
+    {% if Scent != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Scent :</td>
+      <td>{{ Scent }}</td>
+    </tr>
+    {% endif %}
+
+    {% if Packaging != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Packaging :</td>
+      <td>{{ Packaging }}</td>
+    </tr>
+    {% endif %}
+
+    {% if metal != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Metal :</td>
+      <td>{{ metal }}</td>
+    </tr>
+    {% endif %}
+
+    {% if material != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Material :</td>
+      <td>{{ material }}</td>
+    </tr>
+    {% endif %}
+
+    {% if manufacturer != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Manufacturer :</td>
+      <td>{{ manufacturer }}</td>
+    </tr>
+    {% endif %}
+
+    {% if importer != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Importer :</td>
+      <td>{{ importer }}</td>
+    </tr>
+    {% endif %}
+
+    {% if flavour != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Flavour :</td>
+      <td>{{ flavour }}</td>
+    </tr>
+    {% endif %}
+
+    {% if department != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Department :</td>
+      <td>{{ department }}</td>
+    </tr>
+    {% endif %}
+
+    {% if colour != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Colour :</td>
+      <td>{{ colour }}</td>
+    </tr>
+    {% endif %}
+
+    {% if collection != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Collection :</td>
+      <td>{{ collection }}</td>
+    </tr>
+    {% endif %}
+
+    {% if weight != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Weight :</td>
+      <td>{{ weight }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if brand != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Brand :</td>
+      <td>{{ brand }}</td>
+    </tr>
+    {% endif %}
+
+    {% if cat != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Color :</td>
+      <td>{{ cat }}</td>
+    </tr>
+    {% endif %}
+
+    {% if thread_count != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Thread Count :</td>
+      <td>{{ thread_count }}</td>
+    </tr>
+    {% endif %}
+
+    {% if special_feature != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Special Feature :</td>
+      <td>{{ special_feature }}</td>
+    </tr>
+    {% endif %}
+
+    {% if warranty_description != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Warranty Description :</td>
+      <td>{{ warranty_description }}</td>
+    </tr>
+    {% endif %}
+
+    {% if care_instructions != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Care Instructions :</td>
+      <td>{{ care_instructions }}</td>
+    </tr>
+    {% endif %}
+
+    {% if primary_material != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Primary Material :</td>
+      <td>{{ primary_material }}</td>
+    </tr>
+    {% endif %}
+
+    {% if warranty_type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Warranty Type :</td>
+      <td>{{ warranty_type }}</td>
+    </tr>
+    {% endif %}
+
+    {% if shipping_weight != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Shipping Weight :</td>
+      <td>{{ shipping_weight }}</td>
+    </tr>
+    {% endif %}
+
+    {% if model_number != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Model Number :</td>
+      <td>{{ model_number }}</td>
+    </tr>
+    {% endif %}
+
+    {% if pattern != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Pattern :</td>
+      <td>{{ pattern }}</td>
+    </tr>
+    {% endif %}
+
+    {% if item_width != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Width :</td>
+      <td>{{ item_width }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if Item_volume != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item volume :</td>
+      <td>{{ Item_volume }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if item_thickness != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Thickness :</td>
+      <td>{{ item_thickness }}</td>
+    </tr>
+    {% endif %}
+
+    {% if item_shape != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Shape :</td>
+      <td>{{ item_shape }}</td>
+    </tr>
+    {% endif %}
+
+    {% if item_part_number != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Part Number :</td>
+      <td>{{ item_part_number }}</td>
+    </tr>
+    {% endif %}
+
+    {% if item_package_qty != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Package Quantity :</td>
+      <td>{{ item_package_qty }}</td>
+    </tr>
+    {% endif %}
+
+    {% if length != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Length :</td>
+      <td>{{ length }}</td>
+    </tr>
+    {% endif %}
+
+    {% if height != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Height :</td>
+      <td>{{ height }}</td>
+    </tr>
+    {% endif %}
+
+    {% if item_firmness_description != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Firmness Description :</td>
+      <td>{{ item_firmness_description }}</td>
+    </tr>
+    {% endif %}
+
+    {% if item_display_dimensions != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Display Dimensions :</td>
+      <td>{{ item_display_dimensions }}</td>
+    </tr>
+    {% endif %}
+
+    {% if is_stain_resistant != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Is Stain Resistant :</td>
+      <td>{{ is_stain_resistant }}</td>
+    </tr>
+    {% endif %}
+
+    {% if is_microwaveable != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Is Microwaveable :</td>
+      <td>{{ is_microwaveable }}</td>
+    </tr>
+    {% endif %}
+
+    {% if item_diameter != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Diameter :</td>
+      <td>{{ item_diameter }}</td>
+    </tr>
+    {% endif %}
+
+    {% if is_dishwasher_safe != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Is Dishwasher Safe :</td>
+      <td>{{ is_dishwasher_safe }}</td>
+    </tr>
+    {% endif %}
+
+    {% if is_assembly_required != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Is Assembly Required :</td>
+      <td>{{ is_assembly_required }}</td>
+    </tr>
+    {% endif %}
+
+    {% if inner_material != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Inner Material :</td>
+      <td>{{ inner_material }}</td>
+    </tr>
+    {% endif %}
+
+    {% if ingredient_type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Ingredient Type :</td>
+      <td>{{ ingredient_type }}</td>
+    </tr>
+    {% endif %}
+
+    {% if ingredients != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Ingredients :</td>
+      <td>{{ ingredients }}</td>
+    </tr>
+    {% endif %}
+
+    {% if handle_material != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Handle Material :</td>
+      <td>{{ handle_material }}</td>
+    </tr>
+    {% endif %}
+
+    {% if hair_type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Hair Type :</td>
+      <td>{{ hair_type }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if furniture_finish != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Furniture Finish :</td>
+      <td>{{ furniture_finish }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if furniture_base_movement != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Furniture Base Movement :</td>
+      <td>{{ furniture_base_movement }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if frame_material != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Frame Material :</td>
+      <td>{{ frame_material }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if form_factor != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Form Factor :</td>
+      <td>{{ form_factor }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if item_form != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Form :</td>
+      <td>{{ item_form }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if footboard_upholstery != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Footboard Upholstery :</td>
+      <td>{{ footboard_upholstery }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if finish_type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Finish Type :</td>
+      <td>{{ finish_type }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if fill_material != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Fill Material :</td>
+      <td>{{ fill_material }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if features != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Features :</td>
+      <td>{{ features }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if fabric_type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Fabric Type :</td>
+      <td>{{ fabric_type }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if electric_fan_design != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Electric Fan Design :</td>
+      <td>{{ electric_fan_design }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if duration != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Duration :</td>
+      <td>{{ duration }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if drive_system != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Drive System :</td>
+      <td>{{ drive_system }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if dosage_form != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Dosage Form :</td>
+      <td>{{ dosage_form }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if display_technology != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Display Technology :</td>
+      <td>{{ display_technology }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if dial_colour != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Dial Colour :</td>
+      <td>{{ dial_colour }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if desk_design != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Desk Design :</td>
+      <td>{{ desk_design }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if deck_width != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Deck Width :</td>
+      <td>{{ deck_width }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if design != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Design :</td>
+      <td>{{ design }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if deck_length != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Deck Length :</td>
+      <td>{{ deck_length }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if cut != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Cut  :</td>
+      <td>{{ cut }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if Cuisine != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Cuisine :</td>
+      <td>{{ Cuisine }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if corner_style != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Corner Style :</td>
+      <td>{{ corner_style }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if curtain_form != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Curtain Form :</td>
+      <td>{{ curtain_form }}</td>
+    </tr>
+    {% endif %}
+
+    {% if control_method != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Control Method :</td>
+      <td>{{ control_method }}</td>
+    </tr>
+    {% endif %}
+
+    {% if controls_type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Controls Type :</td>
+      <td>{{ controls_type }}</td>
+    </tr>
+    {% endif %}
+
+    {% if controller_type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Controller Type :</td>
+      <td>{{ controller_type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if liquid_contents != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Contains Liquid Contents :</td>
+      <td>{{ liquid_contents }}</td>
+    </tr>
+    {% endif %}
+
+     {% if construction_type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Construction Type :</td>
+      <td>{{ construction_type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if connector_type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Connector Type :</td>
+      <td>{{ connector_type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if connectivity_technology != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Connectivity Technology :</td>
+      <td>{{ connectivity_technology }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Concentration != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Concentration :</td>
+      <td>{{ Concentration }}</td>
+    </tr>
+    {% endif %}
+
+     {% if compatible_phone_models != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Compatible Phone Models :</td>
+      <td>{{ compatible_phone_models }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Chain_length != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Chain Length :</td>
+      <td>{{ Chain_length }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Certification != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Certification :</td>
+      <td>{{ Certification }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Certificate_Type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Certificate Type :</td>
+      <td>{{ Certificate_Type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Case_Thickness != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Case Thickness :</td>
+      <td>{{ Case_Thickness }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Case_Shape != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Case Shape :</td>
+      <td>{{ Case_Shape }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Case_Material != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Case_Material :</td>
+      <td>{{ Case_Material }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Case_Diameter != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Case_Diameter :</td>
+      <td>{{ Case_Diameter }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Cartoon_Character != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Cartoon_Character :</td>
+      <td>{{ Cartoon_Character }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Care_Instructions != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Care_Instructions :</td>
+      <td>{{ Care_Instructions }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Cap_Type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Cap_Type :</td>
+      <td>{{ Cap_Type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Calendar_Type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Calendar_Type :</td>
+      <td>{{ Calendar_Type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Caffeine_Content != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Caffeine_Content :</td>
+      <td>{{ Caffeine_Content }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Burner_Type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Burner_Type :</td>
+      <td>{{ Burner_Type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Bowl_Material != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Bowl_Material :</td>
+      <td>{{ Bowl_Material }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Blanket_Form != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Blanket_Form :</td>
+      <td>{{ Blanket_Form }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Blade_Material != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Blade_Material :</td>
+      <td>{{ Blade_Material }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Diet_Type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Diet Type :</td>
+      <td>{{ Diet_Type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Blade_Length != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Blade Length :</td>
+      <td>{{ Blade_Length }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Capacity != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Capacity :</td>
+      <td>{{ Capacity }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Best_Uses != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Best Uses :</td>
+      <td>{{ Best_Uses }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Batteries_Required != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Batteries Required :</td>
+      <td>{{ Batteries_Required }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Base_Material != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Base_Material :</td>
+      <td>{{ Base_Material }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Back_Material_Type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Back_Material_Type :</td>
+      <td>{{ Back_Material_Type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Back_Finding != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Back Finding :</td>
+      <td>{{ Back_Finding }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Auto_Part_Position != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Auto_Part_Position :</td>
+      <td>{{ Auto_Part_Position }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Audio_Wattage != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Audio_Wattage :</td>
+      <td>{{ Audio_Wattage }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Audio_Output_Mode != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Audio Output Mode :</td>
+      <td>{{ Audio_Output_Mode }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Assembly_Type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Assembly Type :</td>
+      <td>{{ Assembly_Type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Assembly_Required != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Assembly Required :</td>
+      <td>{{ Assembly_Required }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Arm_Style != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Arm Style :</td>
+      <td>{{ Arm_Style }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Are_Batteries_Included != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Are Batteries Included :</td>
+      <td>{{ Are_Batteries_Included }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Compatible_Products != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Compatible Products :</td>
+      <td>{{ Compatible_Products }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Clasp != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Clasp :</td>
+      <td>{{ Clasp }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Compatible_Devices != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Compatible Devices :</td>
+      <td>{{ Compatible_Devices }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Collection_Name != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Collection Name :</td>
+      <td>{{ Collection_Name }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Closure_Type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Closure Type :</td>
+      <td>{{ Closure_Type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Appropriate_Age_Range != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Appropriate Age Range :</td>
+      <td>{{ Appropriate_Age_Range }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Amperage != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Amperage :</td>
+      <td>{{ Amperage }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Chain != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Chain :</td>
+      <td>{{ Chain }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Allergen_Information != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Allergen Information :</td>
+      <td>{{ Allergen_Information }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Alcohol_Content != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Alcohol Content :</td>
+      <td>{{ Alcohol_Content }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Alarm_Clock != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Alarm Clock :</td>
+      <td>{{ Alarm_Clock }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Air_Clock_Capacity != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Air Clock Capacity :</td>
+      <td>{{ Air_Clock_Capacity }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Age_Range != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Age_Range :</td>
+      <td>{{ Age_Range }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Additives != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Additives :</td>
+      <td>{{ Additives }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Additional_Product_Feature != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Additional Product Feature :</td>
+      <td>{{ Additional_Product_Feature }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Active_Ingredients != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Active Ingredients :</td>
+      <td>{{ Active_Ingredients }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Access_Location != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Access Location :</td>
+      <td>{{ Access_Location }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Package_Information != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Package Information:</td>
+      <td>{{ Package_Information }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Package_Weight != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Package Weight :</td>
+      <td>{{ Package_Weight }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Product_Dimensions != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Product Dimensions :</td>
+      <td>{{ Product_Dimensions }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Speciality != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Speciality :</td>
+      <td>{{ Speciality }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Outer_Material != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Outer Material :</td>
+      <td>{{ Outer_Material }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Net_Quantity != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Net Quantity :</td>
+      <td>{{ Net_Quantity }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Number_of_Pieces != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Number of Pieces :</td>
+      <td>{{ Number_of_Pieces }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Material_Type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Material Type :</td>
+      <td>{{ Material_Type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Material_Feature != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Material Feature :</td>
+      <td>{{ Material_Feature }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Liquid_Volume != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Liquid Volume :</td>
+      <td>{{ Liquid_Volume }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Item_Weight != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Weight :</td>
+      <td>{{ Item_Weight }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Item_Model_Number != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Model Number :</td>
+      <td>{{ Item_Model_Number }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Item_Form != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item Form :</td>
+      <td>{{ Item_Form }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Item_Dimensions_LxWxH != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Item_Dimensions_LxWxH :</td>
+      <td>{{ Item_Dimensions_LxWxH }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Included_Components != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Included Components :</td>
+      <td>{{ Included_Components }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Imported_By != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Imported By :</td>
+      <td>{{ Imported_By }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Generic_Name != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Generic Name :</td>
+      <td>{{ Generic_Name }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Display_Type != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Display Type :</td>
+      <td>{{ Display_Type }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Batteries_Included != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Batteries Included :</td>
+      <td>{{ Batteries_Included }}</td>
+    </tr>
+    {% endif %}
+
+     {% if Style != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Style :</td>
+      <td>{{ Style }}</td>
+    </tr>
+    {% endif %}
+
+     {% if country_of_origin != blank %}
+    <tr class="spec_value">
+      <td class="detail_value_name">Country Of Origin :</td>
+      <td>{{ country_of_origin }}</td>
+    </tr>
+    {% endif %}
+
+  </table>
+</div>
+
+{% schema %}
+  {
+    "name": "Amazon Detailed Specs",
+    "settings": [
+		{
+			"type": "checkbox",
+			"id": "detailed_specs",
+			"label": "Enable detailed specifications section?",
+			"default": true
+		},
+        {
+          "type": "text",
+          "id": "heading_class",
+          "label": "Heading Class",
+          "info": "Optional : Add store specific CSS to the heading"
+        }
+	],
+	"presets": [
+		{
+			"name": "Amazon Detailed Specs",
+			"category": "text"
+		}
+	]
+  }
+{% endschema %}
