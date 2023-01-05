@@ -1,19 +1,39 @@
 {%- liquid
-    assign desc = product.description
+    assign prod_desc = product.description
     assign fontsize_text = block.settings.fontsize_text
     assign color_text = block.settings.color_text
     assign word_number = block.settings.word_number
 -%}
-{% if product.metafields.c_f.short_description %}
+{% if product.metafields.custom.product_description %}
     {%- liquid
-        assign desc = product.metafields.c_f.short_description
+        assign desc = product.metafields.custom.product_description | split: '<split>'
     -%}
 {% endif %}
-{%- if desc != blank -%}
-    <div class="productView-desc halo-text-format" 
-        style="--color-text: {{ color_text }};
-        --fontsize-text: {{ fontsize_text | append: 'px' }}"
-    >
-        {{ desc | strip_html | truncatewords: word_number }}
-    </div>
-{%- endif -%}
+
+   {% if section.settings.show_amazon_data and product.metafields.custom.bullets != blank %}
+   {% assign descp = product.metafields.custom.bullets | remove: '["' %}
+   {% assign bullets =  descp |remove: '"]' | split: '","' %}
+   {% assign spl_test = descp | slice: 0 %}
+      <div class="short-description">
+           <p class="product_description">About the product :</p>
+              <div class="description_value">
+                   <ul>
+                   {% for bullet in bullets %}
+                       <li class="descp_bullets">{{ bullet }}</li>
+                   {% endfor %}
+                   </ul>
+              </div>
+      </div>
+    {% else %}
+      <div class="productView-desc halo-text-format" 
+          style="--color-text: {{ color_text }};
+          --fontsize-text: {{ fontsize_text | append: 'px' }}"
+      >
+         {% if product.metafields.custom.product_description contains '<split>' %}
+            <h2 class="pdp_short_descp">{{ desc[0] | strip_html | truncatewords: word_number }}</h2>
+            {{ desc[1] | strip_html | truncatewords: word_number }}
+         {% else %}
+             {{ desc | strip_html | truncatewords: word_number | remove: '["' | remove: '"]'}}
+         {% endif %}
+      </div>
+   {% endif %}
