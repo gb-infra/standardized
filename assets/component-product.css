@@ -222,6 +222,7 @@
     left: auto;
     top: auto;
     display: inherit;
+    max-height: 60vh;
 }
 
 .productView-nav.image-fit-unset .slick-track {
