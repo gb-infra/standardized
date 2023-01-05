@@ -586,10 +586,13 @@
 
 </style>
 
-
-<div class="pdp-aplus container">
-  {{ product.metafields.custom.aplushtml }}
-</div>
+{% if product.metafields.custom.aplushtml != blank %}
+    <div class="amazon_aplus section-block-{{section.id}}">
+      <div class="pdp-aplus {% if section.settings.container == 'fullwidth' %}container-full{% elsif section.settings.container == '1770' %}container-1770{% elsif section.settings.container == '1170' %}container-1170{% else %}container{% endif %}">
+        {{ product.metafields.custom.aplushtml }}
+      </div>
+    </div>
+{% endif %}
 
 {% schema %}
   {
