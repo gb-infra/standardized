@@ -840,9 +840,12 @@
                                             style="--spacing-top: {{ spacing_top | append: 'px' }};
                                             --spacing-bottom: {{ spacing_bottom | append: 'px' }}"
                                         >
-                                          {% if product.metafields.custom.bullets != blank %}
-                                            {{ product.metafields.custom.bullets }}
-                                          {% endif %}
+                                            {% render 'product-short-description',
+                                                block: block,
+                                                product: product,
+                                                fontsize_text: fontsize_text,
+                                                color_text: color_text
+                                            %}
                                         </div>
                                     {%- when 'variant_description' -%}
                                         <div class="productView-moreItem"
