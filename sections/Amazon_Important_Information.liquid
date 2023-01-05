@@ -1,12 +1,47 @@
+{% assign info_json = product.metafields.custom.important_information | remove: '{"sections":[{"' | remove: '"}]}' | split: '},{"' %}
+{% assign ingredients = info_json[0] | remove: 'title":"' | split: ':","body":"' %}
+{% assign safety_info = info_json[1] | remove: 'title":"' | split: ':","body":"' %}
+
+{% assign heading_class = section.settings.heading_class %}
+{% assign content_class = section.settings.content_class %}
+
+{% if info_json != blank %}
+<div class="important_information container">
+  {% if ingredients[0] != blank %}
+  <p class="{% if heading_class != blank %}{{ heading_class }}{% else %}info_title{% endif %}"">{{ingredients[0]}}</p>
+  <p class="{% if content_class != blank %}{{ content_class }}{% else %}info_content{% endif %}">{{ingredients[1]}}</p>
+  {% endif %}
+  
+  {% if safety_info[0] != blank %}
+  <p class="{% if heading_class != blank %}{{ heading_class }}{% else %}info_title{% endif %}">{{safety_info[0]}}</p>
+  <p class="{% if content_class != blank %}{{ content_class }}{% else %}info_content{% endif %}">{{safety_info[1]}}</p>
+  {% endif %}
+</div>
+{% endif %}
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Important Information",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading_class",
+        "label": "Heading Class",
+        "info": "Add store specific CSS to the heading"
+      },
+      {
+        "type": "text",
+        "id": "content_class",
+        "label": "Content Class",
+        "info": "Add store specific CSS to the content"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Important Information",
+        "category": "text"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
