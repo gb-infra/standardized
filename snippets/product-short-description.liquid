@@ -10,7 +10,7 @@
     -%}
 {% endif %}
 
-   {% if section.settings.show_amazon_data and product.metafields.custom.bullets != blank %}
+   {% if product.metafields.custom.bullets != blank %}
    {% assign descp = product.metafields.custom.bullets | remove: '["' %}
    {% assign bullets =  descp |remove: '"]' | split: '","' %}
    {% assign spl_test = descp | slice: 0 %}
