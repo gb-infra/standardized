@@ -136,7 +136,7 @@
     "enable_background_button_card": false,
     "disable_product_card_border": true,
     "enable_custom_layout_card": false,
-    "product_block_image_ratio": "portrait",
+    "product_block_image_ratio": "square",
     "portrait_height": "130",
     "show_image_loading": true,
     "image_loading_text": "Kuber Industries",
