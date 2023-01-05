@@ -204,6 +204,12 @@
         "total_btn_bg_gradient_hover": ""
       }
     },
+    "69422e86-d224-4eff-95cf-538472683b74": {
+      "type": "Amazon_Description",
+      "settings": {
+        "container": "container"
+      }
+    },
     "6752d0b7-67e5-4f2b-8700-356a0d6c6a38": {
       "type": "Amazon_Aplus",
       "settings": {
@@ -321,6 +327,7 @@
   },
   "order": [
     "main",
+    "69422e86-d224-4eff-95cf-538472683b74",
     "6752d0b7-67e5-4f2b-8700-356a0d6c6a38",
     "dc4d65c2-be4d-4642-80ca-f55fa6a69f8c",
     "8106ce4f-a2a4-47a5-af37-dd80a3977f7d",
