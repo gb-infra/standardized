@@ -3,6 +3,9 @@
      padding: 4px 0;
      border: none;
   }
+  .section_divider{
+    margin: 3em 0;
+  }
   .imp_info_heading{
     color: rgb(60, 60, 60);
     font-family: Poppins, sans-serif, Arial, "sans-serif";
@@ -264,7 +267,7 @@
 
 {% assign heading_class = section.settings.heading_class %}
 <div class="detailed_specifications_container container">
-  <hr>
+  <hr class="section_divider">
   <p class="{% if heading_class != blank %}{{ heading_class }}{% else %}imp_info_heading{% endif %}">Detailed Specifications:</p>
   <table class="detailed_specifications">
 <!--................... All metafields ........................-->
