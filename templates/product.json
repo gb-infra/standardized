@@ -402,6 +402,20 @@
         "heading": ""
       }
     },
+    "40fc0ddc-b892-4cac-93dd-1fb940792aff": {
+      "type": "Amazon_Important_Information",
+      "settings": {
+        "heading_class": "",
+        "content_class": ""
+      }
+    },
+    "abf2e4e7-7291-4ffb-9f36-e163f3ecc822": {
+      "type": "Amazon_Detailed_Specifications",
+      "settings": {
+        "detailed_specs": true,
+        "heading_class": ""
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -500,6 +514,8 @@
   "order": [
     "main",
     "76fb5dd4-8d45-401e-a9fd-ca7c079be152",
+    "40fc0ddc-b892-4cac-93dd-1fb940792aff",
+    "abf2e4e7-7291-4ffb-9f36-e163f3ecc822",
     "product-recommendations",
     "product-recently-viewed"
   ]
