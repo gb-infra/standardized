@@ -1,5 +1,5 @@
 {% if product.metafields.custom.description != blank %}
-  <div class="rich-text section-block-{{section.id}}">
+  <div class="amazon_text section-block-{{section.id}}">
     <div class="{% if section.settings.container == 'fullwidth' %}container-full{% elsif section.settings.container == '1770' %}container-1770{% elsif section.settings.container == '1170' %}container-1170{% else %}container{% endif %}">
       {{ product.metafields.custom.description }}
     </div>
