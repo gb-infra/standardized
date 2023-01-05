@@ -219,7 +219,14 @@
     "6752d0b7-67e5-4f2b-8700-356a0d6c6a38": {
       "type": "Amazon_Aplus",
       "settings": {
-        "heading": ""
+        "heading": "",
+        "container": "container",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
       }
     },
     "dc4d65c2-be4d-4642-80ca-f55fa6a69f8c": {
