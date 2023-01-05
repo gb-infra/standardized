@@ -3366,3 +3366,11 @@ quantity-input.disabled {
         display: none !important;
     }
 }
+@media (min-width: 769px){
+  .description_value{
+    padding-left: 20px;
+  }
+  li.descp_bullets {
+    font-size: 13px;
+  }
+}
