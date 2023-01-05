@@ -130,6 +130,7 @@
     "trust_image_cart_1": "shopify:\/\/shop_images\/image-trust.jpg",
     "share_product_type": "addthis",
     "dynamic_browser_title_content": "Come back ⚡",
+    "product_card_layout": "04",
     "product_block_image_ratio": "adapt",
     "portrait_height": "130",
     "show_image_loading": true,
