@@ -1,12 +1,49 @@
+{% if product.metafields.custom.description != blank %}
+  <div class="rich-text section-block-{{section.id}}">
+    <div class="{% if section.settings.container == 'fullwidth' %}container-full{% elsif section.settings.container == '1770' %}container-1770{% elsif section.settings.container == '1170' %}container-1170{% else %}container{% endif %}">
+      {{ product.metafields.custom.description }}
+    </div>
+  </div>
+{% endif %}
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Amazon Description",
+    "settings": [
+        {
+            "type": "header",
+            "content": "t:sections.layout.content"
+        },
+        {
+            "type": "select",
+            "id": "container",
+            "label": "t:sections.layout.container.option",
+            "default": "container",
+            "options": [
+                {
+                    "value": "container",
+                    "label": "t:sections.layout.container.option1"
+                },
+                {
+                    "value": "1170",
+                    "label": "t:sections.layout.container.option4"
+                },
+                {
+                    "value": "1770",
+                    "label": "t:sections.layout.container.option3"
+                },
+                {
+                    "value": "fullwidth",
+                    "label": "t:sections.layout.container.option2"
+                }
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Amazon Description",
+        "category": "text"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
