@@ -3367,7 +3367,7 @@ quantity-input.disabled {
     }
 }
 @media (min-width: 769px){
-  .description_value{
+  .description_value ul{
     padding-left: 20px;
   }
   li.descp_bullets {
