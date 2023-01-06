@@ -14,6 +14,7 @@
     <div class="wrapper-cartCount">
       <span class="cartCount" data-cart-count>{{ cart.item_count }}</span>
       <span>{{ 'sections.cart.items' | t }}</span>
+      {{ customer.phone }}
       <input type="button" onclick="openCheckoutModal()" value="Checkout">
     </div>
   </div>
