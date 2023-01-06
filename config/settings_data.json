@@ -449,6 +449,7 @@
           "header_icon_mobile_spacing": 30,
           "logo": "shopify:\/\/shop_images\/bigbasket-logo_1.jpg",
           "logo_mobile": "shopify:\/\/shop_images\/bigbasket-logo_1.jpg",
+          "logo_fixed": "shopify:\/\/shop_images\/bigbasket-logo_1.jpg",
           "logo_text": "",
           "logo_width": 90,
           "logo_width_mobile": 65,
