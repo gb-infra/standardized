@@ -222,6 +222,7 @@
     left: auto;
     top: auto;
     display: inherit;
+    max-height: 60vh;
 }
 
 .productView-nav.image-fit-unset .slick-track {
@@ -3366,3 +3367,17 @@ quantity-input.disabled {
         display: none !important;
     }
 }
+@media (max-width: 769px){
+  .productView-thumbnail-wrapper{
+    display: none;
+  }
+}
+  .description_value ul{
+    padding-left: 20px;
+  }
+  li.descp_bullets {
+    font-size: 13px;
+  }
+  .bucketDivider + h2{
+    display: none;
+  }
