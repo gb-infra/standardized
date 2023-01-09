@@ -749,12 +749,124 @@
         "border_width_card": 5,
         "border_color_card": "#f0f1f4"
       }
+    },
+    "e07df7c5-cbef-47ef-b56b-2422f8a73f6c": {
+      "type": "featured-collection",
+      "blocks": {
+        "template--17367222321433__e07df7c5-cbef-47ef-b56b-2422f8a73f6c-1673271598ec02d7f4-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/tumbler.jpg",
+            "content_align": "center",
+            "title": "",
+            "color_title": "#232323",
+            "fontsize_title": 20,
+            "color_des": "#3c3c3c",
+            "color_hover_des": "#4dac8b",
+            "fontsize_des": 14,
+            "color_button": "#fff",
+            "border_color_button": "#4d4a46",
+            "bg_color_button": "#4d4a46",
+            "bg_color_gradient_button": "",
+            "color_button_hover": "#fff",
+            "border_color_button_hover": "#4d4a46",
+            "bg_color_button_hover": "#4d4a46",
+            "bg_color_gradient_button_hover": "",
+            "btn_icon": "",
+            "btn_text": "",
+            "link": ""
+          }
+        },
+        "template--17367222321433__e07df7c5-cbef-47ef-b56b-2422f8a73f6c-1673271598ec02d7f4-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/paper-holder_1.jpg",
+            "content_align": "center",
+            "title": "",
+            "color_title": "#232323",
+            "fontsize_title": 20,
+            "color_des": "#3c3c3c",
+            "color_hover_des": "#4dac8b",
+            "fontsize_des": 14,
+            "color_button": "#fff",
+            "border_color_button": "#4d4a46",
+            "bg_color_button": "#4d4a46",
+            "bg_color_gradient_button": "",
+            "color_button_hover": "#fff",
+            "border_color_button_hover": "#4d4a46",
+            "bg_color_button_hover": "#4d4a46",
+            "bg_color_gradient_button_hover": "",
+            "btn_icon": "",
+            "btn_text": "",
+            "link": ""
+          }
+        },
+        "template--17367222321433__e07df7c5-cbef-47ef-b56b-2422f8a73f6c-1673271598ec02d7f4-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/napkin-ring.jpg",
+            "content_align": "center",
+            "title": "",
+            "color_title": "#232323",
+            "fontsize_title": 20,
+            "color_des": "#3c3c3c",
+            "color_hover_des": "#4dac8b",
+            "fontsize_des": 14,
+            "color_button": "#fff",
+            "border_color_button": "#4d4a46",
+            "bg_color_button": "#4d4a46",
+            "bg_color_gradient_button": "",
+            "color_button_hover": "#fff",
+            "border_color_button_hover": "#4d4a46",
+            "bg_color_button_hover": "#4d4a46",
+            "bg_color_gradient_button_hover": "",
+            "btn_icon": "",
+            "btn_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17367222321433__e07df7c5-cbef-47ef-b56b-2422f8a73f6c-1673271598ec02d7f4-0",
+        "template--17367222321433__e07df7c5-cbef-47ef-b56b-2422f8a73f6c-1673271598ec02d7f4-1",
+        "template--17367222321433__e07df7c5-cbef-47ef-b56b-2422f8a73f6c-1673271598ec02d7f4-2"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "column": "3",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 10,
+        "mg_bottom_tablet": 10,
+        "mg_bottom_mobile": 10,
+        "featured_collection_bg": "#6cc0c8",
+        "featured_collection_bg_gradient": "",
+        "featured_collection_block_title": "Top Categories",
+        "enable_border_title": false,
+        "color_title": "#202020",
+        "fontsize_title": 40,
+        "fontsize_title_mb": 22,
+        "featured_collection_block_btn_text": "",
+        "featured_collection_block_btn_link": "",
+        "btn_color": "#3c3c3c",
+        "fontsize_btn": 16,
+        "btn_icon": "",
+        "btn_icon_color": "#eb492f",
+        "title_align": "center",
+        "featured_collection_block_swipe_on_mobile": false
+      }
     }
   },
   "order": [
     "16321237356a896dad",
     "163247026462da6862",
     "7881686c-9ae6-40c6-b756-a71d6c88e8e0",
-    "45829954-87df-40f1-9ac7-3493b50f97fd"
+    "45829954-87df-40f1-9ac7-3493b50f97fd",
+    "e07df7c5-cbef-47ef-b56b-2422f8a73f6c"
   ]
 }
