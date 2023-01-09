@@ -703,7 +703,7 @@
           "social_icon_border_width": 1,
           "social_icon_margin_right": 15,
           "social_position": "4",
-          "column_reverse": true,
+          "column_reverse": false,
           "social_color": "#282828",
           "social_border_color": "#ffffff",
           "social_background_color": "#ffffff",
