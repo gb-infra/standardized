@@ -940,6 +940,7 @@
     },
     "1632304586ad9b5b3b": {
       "type": "brand-slider",
+      "disabled": true,
       "blocks": {
         "41b12b4c-82b5-4352-8517-389aad8e189c": {
           "type": "image",
