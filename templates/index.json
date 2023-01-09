@@ -456,6 +456,143 @@
         "border_color_card": "#f0f1f4"
       }
     },
+    "b4015dc6-af72-4e38-86e3-0342b82243ad": {
+      "type": "featured-collection",
+      "blocks": {
+        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/corner-rack_2a4c99a4-782c-4137-aa72-5f0b014c9d1b.jpg",
+            "content_align": "center",
+            "title": "",
+            "color_title": "#232323",
+            "fontsize_title": 20,
+            "color_des": "#3c3c3c",
+            "color_hover_des": "#4dac8b",
+            "fontsize_des": 14,
+            "color_button": "#fff",
+            "border_color_button": "#4d4a46",
+            "bg_color_button": "#4d4a46",
+            "bg_color_gradient_button": "",
+            "color_button_hover": "#fff",
+            "border_color_button_hover": "#4d4a46",
+            "bg_color_button_hover": "#4d4a46",
+            "bg_color_gradient_button_hover": "",
+            "btn_icon": "",
+            "btn_text": "",
+            "link": ""
+          }
+        },
+        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/dish-rack.jpg",
+            "content_align": "center",
+            "title": "",
+            "color_title": "#232323",
+            "fontsize_title": 20,
+            "color_des": "#3c3c3c",
+            "color_hover_des": "#4dac8b",
+            "fontsize_des": 14,
+            "color_button": "#fff",
+            "border_color_button": "#4d4a46",
+            "bg_color_button": "#4d4a46",
+            "bg_color_gradient_button": "",
+            "color_button_hover": "#fff",
+            "border_color_button_hover": "#4d4a46",
+            "bg_color_button_hover": "#4d4a46",
+            "bg_color_gradient_button_hover": "",
+            "btn_icon": "",
+            "btn_text": "",
+            "link": ""
+          }
+        },
+        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/fruit-basket.jpg",
+            "content_align": "center",
+            "title": "",
+            "color_title": "#232323",
+            "fontsize_title": 20,
+            "color_des": "#3c3c3c",
+            "color_hover_des": "#4dac8b",
+            "fontsize_des": 14,
+            "color_button": "#fff",
+            "border_color_button": "#4d4a46",
+            "bg_color_button": "#4d4a46",
+            "bg_color_gradient_button": "",
+            "color_button_hover": "#fff",
+            "border_color_button_hover": "#4d4a46",
+            "bg_color_button_hover": "#4d4a46",
+            "bg_color_gradient_button_hover": "",
+            "btn_icon": "",
+            "btn_text": "",
+            "link": ""
+          }
+        },
+        "f20add0a-dc5d-4c0e-b913-8fe3c04868d5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/cutlery-set.jpg",
+            "content_align": "center",
+            "title": "",
+            "color_title": "#232323",
+            "fontsize_title": 20,
+            "color_des": "#3c3c3c",
+            "color_hover_des": "#4dac8b",
+            "fontsize_des": 14,
+            "color_button": "#fff",
+            "border_color_button": "#4d4a46",
+            "bg_color_button": "#4d4a46",
+            "bg_color_gradient_button": "",
+            "color_button_hover": "#fff",
+            "border_color_button_hover": "#4d4a46",
+            "bg_color_button_hover": "#4d4a46",
+            "bg_color_gradient_button_hover": "",
+            "btn_icon": "",
+            "btn_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-0",
+        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-1",
+        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-2",
+        "f20add0a-dc5d-4c0e-b913-8fe3c04868d5"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "column": "4",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 10,
+        "mg_bottom_tablet": 10,
+        "mg_bottom_mobile": 10,
+        "featured_collection_bg": "#f5f5f5",
+        "featured_collection_bg_gradient": "",
+        "featured_collection_block_title": "Top Categories",
+        "enable_border_title": false,
+        "color_title": "#202020",
+        "fontsize_title": 40,
+        "fontsize_title_mb": 22,
+        "featured_collection_block_btn_text": "",
+        "featured_collection_block_btn_link": "",
+        "btn_color": "#3c3c3c",
+        "fontsize_btn": 16,
+        "btn_icon": "",
+        "btn_icon_color": "#eb492f",
+        "title_align": "center",
+        "featured_collection_block_swipe_on_mobile": false
+      }
+    },
     "163221535239da03ba": {
       "type": "spotlight-block",
       "blocks": {
@@ -1504,154 +1641,17 @@
         "effects_bg": "",
         "effects_opacity": 0
       }
-    },
-    "b4015dc6-af72-4e38-86e3-0342b82243ad": {
-      "type": "featured-collection",
-      "blocks": {
-        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/corner-rack_2a4c99a4-782c-4137-aa72-5f0b014c9d1b.jpg",
-            "content_align": "center",
-            "title": "",
-            "color_title": "#232323",
-            "fontsize_title": 20,
-            "color_des": "#3c3c3c",
-            "color_hover_des": "#4dac8b",
-            "fontsize_des": 14,
-            "color_button": "#fff",
-            "border_color_button": "#4d4a46",
-            "bg_color_button": "#4d4a46",
-            "bg_color_gradient_button": "",
-            "color_button_hover": "#fff",
-            "border_color_button_hover": "#4d4a46",
-            "bg_color_button_hover": "#4d4a46",
-            "bg_color_gradient_button_hover": "",
-            "btn_icon": "",
-            "btn_text": "",
-            "link": ""
-          }
-        },
-        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/dish-rack.jpg",
-            "content_align": "center",
-            "title": "",
-            "color_title": "#232323",
-            "fontsize_title": 20,
-            "color_des": "#3c3c3c",
-            "color_hover_des": "#4dac8b",
-            "fontsize_des": 14,
-            "color_button": "#fff",
-            "border_color_button": "#4d4a46",
-            "bg_color_button": "#4d4a46",
-            "bg_color_gradient_button": "",
-            "color_button_hover": "#fff",
-            "border_color_button_hover": "#4d4a46",
-            "bg_color_button_hover": "#4d4a46",
-            "bg_color_gradient_button_hover": "",
-            "btn_icon": "",
-            "btn_text": "",
-            "link": ""
-          }
-        },
-        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/fruit-basket.jpg",
-            "content_align": "center",
-            "title": "",
-            "color_title": "#232323",
-            "fontsize_title": 20,
-            "color_des": "#3c3c3c",
-            "color_hover_des": "#4dac8b",
-            "fontsize_des": 14,
-            "color_button": "#fff",
-            "border_color_button": "#4d4a46",
-            "bg_color_button": "#4d4a46",
-            "bg_color_gradient_button": "",
-            "color_button_hover": "#fff",
-            "border_color_button_hover": "#4d4a46",
-            "bg_color_button_hover": "#4d4a46",
-            "bg_color_gradient_button_hover": "",
-            "btn_icon": "",
-            "btn_text": "",
-            "link": ""
-          }
-        },
-        "f20add0a-dc5d-4c0e-b913-8fe3c04868d5": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/cutlery-set.jpg",
-            "content_align": "center",
-            "title": "",
-            "color_title": "#232323",
-            "fontsize_title": 20,
-            "color_des": "#3c3c3c",
-            "color_hover_des": "#4dac8b",
-            "fontsize_des": 14,
-            "color_button": "#fff",
-            "border_color_button": "#4d4a46",
-            "bg_color_button": "#4d4a46",
-            "bg_color_gradient_button": "",
-            "color_button_hover": "#fff",
-            "border_color_button_hover": "#4d4a46",
-            "bg_color_button_hover": "#4d4a46",
-            "bg_color_gradient_button_hover": "",
-            "btn_icon": "",
-            "btn_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-0",
-        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-1",
-        "template--17367222321433__b4015dc6-af72-4e38-86e3-0342b82243ad-1673271598ec02d7f4-2",
-        "f20add0a-dc5d-4c0e-b913-8fe3c04868d5"
-      ],
-      "settings": {
-        "container": "container",
-        "padding_full_width": 0,
-        "column": "4",
-        "mg_top_desktop": 50,
-        "mg_top_tablet": 50,
-        "mg_top_mobile": 50,
-        "mg_bottom_desktop": 10,
-        "mg_bottom_tablet": 10,
-        "mg_bottom_mobile": 10,
-        "featured_collection_bg": "#f5f5f5",
-        "featured_collection_bg_gradient": "",
-        "featured_collection_block_title": "Top Categories",
-        "enable_border_title": false,
-        "color_title": "#202020",
-        "fontsize_title": 40,
-        "fontsize_title_mb": 22,
-        "featured_collection_block_btn_text": "",
-        "featured_collection_block_btn_link": "",
-        "btn_color": "#3c3c3c",
-        "fontsize_btn": 16,
-        "btn_icon": "",
-        "btn_icon_color": "#eb492f",
-        "title_align": "center",
-        "featured_collection_block_swipe_on_mobile": false
-      }
     }
   },
   "order": [
     "16321237356a896dad",
     "163247026462da6862",
+    "b4015dc6-af72-4e38-86e3-0342b82243ad",
     "163221535239da03ba",
     "16323855104e3e74f6",
     "16328142266b504c78",
     "1632296224c9e90203",
     "1632304586ad9b5b3b",
-    "1632364695b0f88b4f",
-    "b4015dc6-af72-4e38-86e3-0342b82243ad"
+    "1632364695b0f88b4f"
   ]
 }
