@@ -77,7 +77,6 @@
     // var customer_id = '{{ customer.id }}';
 
     return {
-      customer: {
         id: '{{ customer.id }}',
         firstName : '{{ customer.first_name }}',
         lastName : '{{ customer.last_name }}',
@@ -86,7 +85,6 @@
         addresses: '{{ customer.addresses.city }}',
         defaultAddress: '{{ customer.default_address }}',
         tags: '{{ customer.tags }}'
-      },
     };
   }
   function openCheckoutModal() {
