@@ -125,7 +125,7 @@
     "after_add_to_cart": "quick_cart",
     "enable_lazyload": true,
     "pagination_style": "1",
-    "pagination_align": "left",
+    "pagination_align": "center",
     "trust_image_product_3": "shopify:\/\/shop_images\/security-image-3.png",
     "trust_image_product_4": "shopify:\/\/shop_images\/security-image-4.png",
     "trust_image_cart_1": "shopify:\/\/shop_images\/image-trust.jpg",
