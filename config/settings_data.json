@@ -483,23 +483,23 @@
             "settings": {
               "custom_width": "20",
               "heading": "Shop",
-              "menu": ""
+              "menu": "shop"
             }
           },
           "d214f3b2-0aee-43b9-9dfa-73991e36badc": {
             "type": "link_list",
             "settings": {
               "custom_width": "20",
-              "heading": "Information",
-              "menu": ""
+              "heading": "Quick Links",
+              "menu": "quick-links"
             }
           },
           "87eae35d-3b4e-471c-abc6-db4ed7d19b47": {
             "type": "link_list",
             "settings": {
               "custom_width": "20",
-              "heading": "Customer Service",
-              "menu": ""
+              "heading": "Information",
+              "menu": "footer-1"
             }
           },
           "ece4468c-0331-4616-bca7-5e13eadbf9bb": {
