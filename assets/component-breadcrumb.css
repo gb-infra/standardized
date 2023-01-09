@@ -415,3 +415,8 @@
         padding-top: 20px;
     }
 }
+@media (max-width: 769px){
+  .breadcrumb-container.style--line_clamp_1{
+    margin-right: 0;
+  }
+}
