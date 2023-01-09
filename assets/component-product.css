@@ -3367,11 +3367,17 @@ quantity-input.disabled {
         display: none !important;
     }
 }
-@media (min-width: 769px){
+@media (max-width: 769px){
+  .productView-thumbnail-wrapper{
+    display: none;
+  }
+}
   .description_value ul{
     padding-left: 20px;
   }
   li.descp_bullets {
     font-size: 13px;
   }
-}
+  .bucketDivider + h2{
+    display: none;
+  }
