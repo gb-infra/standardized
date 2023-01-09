@@ -779,7 +779,7 @@
         "template--17298228969762__d923a5a9-0569-4ba5-b8f8-698aa5ea7b02-1673247141e9ef0565-0"
       ],
       "settings": {
-        "container": "fullwidth",
+        "container": "container",
         "padding_full_width": 0,
         "mg_top_desktop": 50,
         "mg_top_tablet": 50,
