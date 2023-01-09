@@ -181,6 +181,18 @@
         "total_btn_bg_gradient_hover": ""
       }
     },
+    "1c670508-d415-4440-a4a9-f13e94e42044": {
+      "type": "Amazon_Description",
+      "settings": {
+        "container": "container",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
     "c3236fc0-eaf4-4918-8f6c-a4de4ae85c85": {
       "type": "Amazon_Aplus",
       "settings": {
@@ -298,6 +310,7 @@
   },
   "order": [
     "main",
+    "1c670508-d415-4440-a4a9-f13e94e42044",
     "c3236fc0-eaf4-4918-8f6c-a4de4ae85c85",
     "755ef60c-ba81-4208-914f-6d1f23fb4833",
     "fa37cb40-23be-4d80-9099-31d091df1dd5",
