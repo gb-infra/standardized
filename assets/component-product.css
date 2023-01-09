@@ -222,6 +222,7 @@
     left: auto;
     top: auto;
     display: inherit;
+    max-height: 60vh;
 }
 
 .productView-nav.image-fit-unset .slick-track {
@@ -3365,4 +3366,12 @@ quantity-input.disabled {
     .cursor-wrapper {
         display: none !important;
     }
+}
+@media (min-width: 769px){
+  .description_value ul{
+    padding-left: 20px;
+  }
+  li.descp_bullets {
+    font-size: 13px;
+  }
 }
