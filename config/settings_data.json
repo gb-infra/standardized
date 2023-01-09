@@ -629,8 +629,8 @@
             "type": "link_list",
             "settings": {
               "custom_width": "20",
-              "heading": "Customer Service",
-              "menu": ""
+              "heading": "Information",
+              "menu": "information"
             }
           },
           "ece4468c-0331-4616-bca7-5e13eadbf9bb": {
