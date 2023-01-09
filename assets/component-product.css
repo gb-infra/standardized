@@ -3374,4 +3374,7 @@ quantity-input.disabled {
   li.descp_bullets {
     font-size: 13px;
   }
+  .bucketDivider + h2{
+    display: none;
+  }
 }
