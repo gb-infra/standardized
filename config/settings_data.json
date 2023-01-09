@@ -216,7 +216,7 @@
     "quick_cart_popular_product_dots": false,
     "quick_cart_popular_product_arrows": true,
     "show_quick_edit_cart": true,
-    "quick_edit_cart_picker_type": "button",
+    "quick_edit_cart_picker_type": "dropdown",
     "quick_view_layout": "3",
     "quick_view_product_image_ratio": "adapt",
     "show_quick_view_short_description": false,
