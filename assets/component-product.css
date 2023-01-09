@@ -3367,7 +3367,11 @@ quantity-input.disabled {
         display: none !important;
     }
 }
-
+@media (max-width: 769px){
+  .productView-thumbnail-wrapper{
+    display: none;
+  }
+}
   .description_value ul{
     padding-left: 20px;
   }
