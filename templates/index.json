@@ -699,14 +699,6 @@
     "45829954-87df-40f1-9ac7-3493b50f97fd": {
       "type": "product-block",
       "blocks": {
-        "04dc18e1-03f5-4e80-a651-99b4fbc48ae2": {
-          "type": "collections",
-          "settings": {
-            "text_collections": "",
-            "button_text_collections": "",
-            "button_link_collections": ""
-          }
-        },
         "769273a4-26ca-4ff4-9352-5f99d345b1e2": {
           "type": "banner",
           "settings": {
@@ -743,11 +735,19 @@
             "button_bg_color_hover": "#ffffff",
             "button_bg_color_gradient_hover": ""
           }
+        },
+        "04dc18e1-03f5-4e80-a651-99b4fbc48ae2": {
+          "type": "collections",
+          "settings": {
+            "text_collections": "Bestsellers",
+            "button_text_collections": "",
+            "button_link_collections": ""
+          }
         }
       },
       "block_order": [
-        "04dc18e1-03f5-4e80-a651-99b4fbc48ae2",
-        "769273a4-26ca-4ff4-9352-5f99d345b1e2"
+        "769273a4-26ca-4ff4-9352-5f99d345b1e2",
+        "04dc18e1-03f5-4e80-a651-99b4fbc48ae2"
       ],
       "settings": {
         "container": "container",
