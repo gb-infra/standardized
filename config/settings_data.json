@@ -1155,7 +1155,7 @@
           "enable_parallax": false,
           "color_sticky_parallax": "#232323",
           "bg_sticky_parallax": "#ffffff",
-          "lv_1_color": "#000000",
+          "lv_1_color": "#e8e8e8",
           "lv_1_color_hover": "#000000",
           "lv_1_color_mb": "#000000",
           "lv_2_color": "#000000",
