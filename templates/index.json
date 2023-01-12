@@ -341,7 +341,7 @@
         "e7618b89-f1a9-4aa1-9690-4b463bf07d3a"
       ],
       "settings": {
-        "container": "container",
+        "container": "fullwidth",
         "padding_full_width": 0,
         "display_border_top": false,
         "display_border_bottom": false,
