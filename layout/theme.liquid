@@ -169,7 +169,8 @@
         
         {% render 'halo-sidebar' %}
         
-        <script>
+        <script defer="defer">
+          console.log('loaded');
           $(document).ready(function() {
             const checkoutButton = document.getElementById('cart-sidebar-checkout');
             const btn = document.getElementsByClassName('button-1 button-checkout');
