@@ -684,7 +684,7 @@
         "mg_bottom_desktop": 70,
         "mg_bottom_tablet": 50,
         "mg_bottom_mobile": 40,
-        "product_block_layout": "grid",
+        "product_block_layout": "slider",
         "product_bg": "#ffffff",
         "product_bg_gradient": "",
         "style_block_header": "style1",
