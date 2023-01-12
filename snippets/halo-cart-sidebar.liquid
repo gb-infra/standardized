@@ -93,9 +93,9 @@
     const modal = document.getElementById('checkout-popup');
     modal.classList.remove('hide-checkout');
     const iframe = document.getElementById('checkout-iframe');
-    iframe.src = 'http://localhost:3001/';
+    iframe.src = 'https://checkout-app-dev.gb1.in/';
     const cartContents = fetch(window.Shopify.routes.root + "cart.js").then((response) => response.json()).then((cart) => {
-      iframe.contentWindow.postMessage({ cart, customer: customerDetailsFetch() }, "http://localhost:3001/");
+      iframe.contentWindow.postMessage({ cart, customer: customerDetailsFetch() }, "https://checkout-app-dev.gb1.in/");
     });
     window.addEventListener('message', (e) => {
       console.log(e);
