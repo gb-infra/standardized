@@ -52,7 +52,9 @@
 </div>
 <script src="{{ 'halo-toolcart.js' | asset_url }}" defer="defer"></script>
 <script>
-  
+    const checkoutButton = document.getELementById('cart-sidebar-checkout');
+    console.log(checkoutButton);
+    console.log(checkoutButton.onclick);
   
     function customerDetailsFetch() {
     // console.log(arguments);
