@@ -52,6 +52,8 @@
 </div>
 <script src="{{ 'halo-toolcart.js' | asset_url }}" defer="defer"></script>
 <script>
+  
+  
     function customerDetailsFetch() {
     // console.log(arguments);
     //     var salt_value = salt.substring(random_num, random_num+10);
@@ -98,10 +100,16 @@
       console.log(e);
       if (e?.data?.orderPlaced) {
          console.log('order is place on shopify & clearing cart');
-          jQuery.post(window.Shopify.routes.root + "cart/clear.js").then((resp) => { console.log(resp)});
-          const modal = document.getElementById('checkout-popup');
-          modal.classList.add('hide-checkout');
+          jQuery.post(window.Shopify.routes.root + "cart/clear.js").then((resp) => { 
+            console.log(resp);
+            const modal = document.getElementById('checkout-popup');
+            modal.classList.add('hide-checkout');
+            window.location.href = `${window.location.hostname}/account`;
+          });
+
       }
     });
   }
+
+
 </script>
