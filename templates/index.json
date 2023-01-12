@@ -165,8 +165,9 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Product_360x_d1579a0b-6382-4551-bba7-e7fc2877ab77.jpg",
             "title_align": "center",
-            "enable_absolute": true,
+            "enable_absolute": false,
             "align_items": "center",
             "align_items_spacing_top_bottom_position": 0,
             "align_items_spacing_top_bottom_position_mb": 0,
@@ -215,8 +216,9 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Reach_Web_banner-11a_1_360x_6ce23428-b622-4072-898a-391e24ea9a19.jpg",
             "title_align": "center",
-            "enable_absolute": true,
+            "enable_absolute": false,
             "align_items": "center",
             "align_items_spacing_top_bottom_position": 0,
             "align_items_spacing_top_bottom_position_mb": 0,
@@ -265,8 +267,9 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Reach_Web_banner-12a_360x_ed40bd54-9f17-44c1-9b61-4b11a53b2bbc.jpg",
             "title_align": "center",
-            "enable_absolute": true,
+            "enable_absolute": false,
             "align_items": "center",
             "align_items_spacing_top_bottom_position": 0,
             "align_items_spacing_top_bottom_position_mb": 0,
@@ -315,6 +318,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-06-21_at_3.40.01_PM_74ea553c-b7f5-428f-bf6d-1ff010bb355b.jpg",
             "title_align": "center",
             "enable_absolute": false,
             "align_items": "center",
