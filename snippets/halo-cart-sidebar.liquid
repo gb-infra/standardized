@@ -53,14 +53,24 @@
 <script src="{{ 'halo-toolcart.js' | asset_url }}" defer="defer"></script>
 <script>
   
-    $(document).ready(() => {
-         const checkoutButton = document.getElementById('cart-sidebar-checkout');
+
+    $(window).load(function(){
+            const checkoutButton = document.getElementById('cart-sidebar-checkout');
     const btn = document.getElementsByClassName('button-1 button-checkout');
       console.log(JSON.stringify(btn));
   console.log(btn);
     console.log(checkoutButton);
-    console.log(checkoutButton.onclick);        
-    });
+    console.log(checkoutButton.onclick); 
+  });
+  
+  //   $(document).ready(() => {
+  //        const checkoutButton = document.getElementById('cart-sidebar-checkout');
+  //   const btn = document.getElementsByClassName('button-1 button-checkout');
+  //     console.log(JSON.stringify(btn));
+  // console.log(btn);
+  //   console.log(checkoutButton);
+  //   console.log(checkoutButton.onclick);        
+  //   });
 
   
     function customerDetailsFetch() {
@@ -120,6 +130,7 @@
       }
     });
   }
+
 
 
 
