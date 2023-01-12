@@ -171,6 +171,10 @@
         
         <script defer="defer">
           console.log('loaded');
+          $(window).bind("load", function() {
+            console.log('here');
+           // code here
+          });
           $(document).ready(function() {
             const checkoutButton = document.getElementById('cart-sidebar-checkout');
             const btn = document.getElementsByClassName('button-1 button-checkout');
