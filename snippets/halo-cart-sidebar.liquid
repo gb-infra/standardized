@@ -94,6 +94,7 @@
     modal.classList.remove('hide-checkout');
     const iframe = document.getElementById('checkout-iframe');
     const cartContents = fetch(window.Shopify.routes.root + "cart.js").then((response) => response.json()).then((cart) => {
+      iframe.src = iframe.src;
       iframe.contentWindow.postMessage({ cart, customer: customerDetailsFetch() }, "http://localhost:3001/");
     });
     window.addEventListener('message', (e) => {
