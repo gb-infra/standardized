@@ -52,8 +52,11 @@
 
 <script defer="defer">
   $(window).bind("load", function() {
-     const checkoutButton = document.getElementsByClassName('button button-1 button-checkout');
-     console.log('checkout',  checkoutButton);
+     setTimeout(() => {
+       const checkoutButton = document.getElementsByClassName('button button-1 button-checkout');
+       console.log('checkout',  JSON.stringify(checkoutButton));
+       
+     }, 3000);
   });
   function customerDetailsFetch() {
     return {
