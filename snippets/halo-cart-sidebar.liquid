@@ -51,7 +51,7 @@
 <script src="{{ 'halo-toolcart.js' | asset_url }}" defer="defer"></script>
 
 <script defer="defer">
-  $(window).ready(() => {
+  $(window).bind("load", function() {
      const checkoutButton = document.getElementByClassName('button button-1 button-checkout');
      console.log('checkout',  checkoutButton);
   });
