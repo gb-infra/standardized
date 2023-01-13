@@ -53,10 +53,8 @@
 <script defer="defer">
   $(window).bind("load", function() {
      setTimeout(() => {
-       const checkoutButton1 = document.getElementById('cart-sidebar-checkout');
-       console.log(checkoutButton1);
-       const checkoutButton = document.getElementsByClassName('button button-1 button-checkout');
-       console.log('checkout',  JSON.stringify(checkoutButton));
+       const checkoutButton = document.getElementById('cart-sidebar-checkout');
+       console.log(checkoutButton.onclick);
      }, 3000);
   });
   function customerDetailsFetch() {
