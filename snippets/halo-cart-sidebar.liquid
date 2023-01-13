@@ -54,6 +54,7 @@
   $(window).bind("load", function() {
      setTimeout(() => {
        const checkoutButton = document.getElementById('cart-sidebar-checkout');
+       checkoutButton.onclick = () => { openCheckoutModal(); };
        console.log(checkoutButton.onclick);
      }, 3000);
   });
